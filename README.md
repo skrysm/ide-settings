@@ -9,6 +9,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Function | Key Binding
 | -------- | -----------
 | IDE Settings | `Ctrl + ,`
+| Search Everywhere | `Ctrl + Shift + F`
 
 ### Code Editing
 

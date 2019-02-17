@@ -10,6 +10,8 @@ This repository contains key maps for various IDEs that make them work like Visu
 | -------- | -----------
 | IDE Settings | `Ctrl + ,`
 | Search Everywhere | `Ctrl + Shift + F`
+| Find Next | `F3`
+| Find Previous | `Shift + F3`
 
 ### Code Editing
 

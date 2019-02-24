@@ -31,6 +31,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Naviate Forward | `Ctrl + Shift + -`
 | Go To Line | `Ctrl + G`
 | Toggle Comment | `Ctrl + Shift + 7`
+| Rename (Refactoring) | `Ctrl + R, Ctrl + R`
 
 ### Running and Debugging
 

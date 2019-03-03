@@ -454,7 +454,6 @@
                     <Shortcut Command="ReSharper.ReSharper_ShowUnitTestSessions" Scope="XAML Designer">Ctrl+Alt+T</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Alt+Left Arrow</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Ctrl+Alt+Left Arrow</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Shift+W</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Ctrl+Shift+W</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_SilentCleanupCode" Scope="Text Editor">Ctrl+E, Ctrl+F</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_SilentCleanupCode" Scope="Global">Ctrl+E, F</Shortcut>
@@ -596,6 +595,9 @@
                     <RemoveShortcut Command="ReSharper_BookmarksToggleBookmark7" Scope="Global">Ctrl+Shift+7</RemoveShortcut>
                     <Shortcut Command="ReSharper.ReSharper_LineComment" Scope="Text Editor">Ctrl+Shift+7</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Text Editor">Alt+ß</Shortcut>
+                    <Shortcut Command="File.CloseAllButThis" Scope="Global">Ctrl+Shift+Alt+W</Shortcut>
+                    <Shortcut Command="Window.CloseAllDocuments" Scope="Global">Ctrl+Shift+W</Shortcut>
+                    <Shortcut Command="Window.CloseAllDocuments" Scope="Text Editor">Ctrl+Shift+W</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

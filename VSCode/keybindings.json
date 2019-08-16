@@ -95,5 +95,29 @@
     {
         "key": "ctrl+shift+alt+w",
         "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordPartRight"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "cursorWordPartRightSelect"
     }
 ]

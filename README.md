@@ -15,6 +15,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Find Previous | `Shift + F3`
 | Close All Windows | `Ctrl + Shift + W`
 | Close Other Windows | `Ctrl + Shift + Alt + W`
+| Go to Action/Command | `Ctrl + Shift + P`
 
 ### Code Editing
 
@@ -35,8 +36,11 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Go To Line | `Ctrl + G`
 | Toggle Comment | `Ctrl + Shift + 7`
 | Rename (Refactoring) | `Ctrl + R, Ctrl + R`
-| Expand Selection | `Alt + Shift + Right`
-| Shrink Selection | `Alt + Shift + Left`
+| Surround with | `Ctrl + E, U`
+| Expand Selection | `Alt + Shift + Up`
+| Shrink Selection | `Alt + Shift + Down`
+| Go to Previous Hump | `Alt + Left`
+| Go to Next Hump | `Alt + Right`
 
 ### Running and Debugging
 

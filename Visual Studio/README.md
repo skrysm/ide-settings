@@ -12,6 +12,8 @@ Then deselect `All Settings` and select:
 
 Then export.
 
+Afterwards, use Visual Studio Code to format the file (via `Ctrl+Shift+P` and then `Format Document`).
+
 ## Import
 
 Go to:

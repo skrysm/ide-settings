@@ -9,6 +9,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Function | Key Binding
 | -------- | -----------
 | IDE Settings | `Ctrl + ,`
+| Save All | `Ctrl + Shift + S`
 | Search Everywhere | `Ctrl + Shift + F`
 | Find Next | `F3`
 | Find Previous | `Shift + F3`
@@ -20,10 +21,10 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Function | Key Binding
 | -------- | -----------
 | Quick Fix | `Alt + Enter`
-| Open Type | `Ctrl + T`
+| Search Everything/Search for Symbol | `Ctrl + T`
 | Open File | `Ctrl + Shift + T`
 | Go To Implementation | `F12`
-| Find References | `Shift + F12`
+| Find Usages | `Shift + F12`
 | Go To Member | `Alt + ß`
 | Go To Child Implementation (Interface) | `Alt + End`
 | Go To Parent Implementation (Interface) | `Alt + Home`
@@ -34,6 +35,8 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Go To Line | `Ctrl + G`
 | Toggle Comment | `Ctrl + Shift + 7`
 | Rename (Refactoring) | `Ctrl + R, Ctrl + R`
+| Expand Selection | `Alt + Shift + Right`
+| Shrink Selection | `Alt + Shift + Left`
 
 ### Running and Debugging
 

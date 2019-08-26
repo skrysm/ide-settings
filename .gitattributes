@@ -1,2 +1,5 @@
 # Disable git's auto eol handling for all files.
 * -text
+
+# Special for VSCode key bindings
+/VSCode/keybindings.json text

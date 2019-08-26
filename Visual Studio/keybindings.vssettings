@@ -599,7 +599,6 @@
                     <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Alt+Left Arrow</RemoveShortcut>
                     <Shortcut Command="ReSharper.ReSharper_FindUsages" Scope="Global">Shift+F12</Shortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Global">Shift+Alt+F12</RemoveShortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GotoAction" Scope="Global">Ctrl+Shift+P</Shortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="Global">Ctrl+Shift+A</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="Text Editor">Ctrl+Shift+A</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="XAML Designer">Ctrl+Shift+A</RemoveShortcut>
@@ -611,6 +610,10 @@
                     <RemoveShortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="XAML Designer">Shift+Alt+Right Arrow</RemoveShortcut>
                     <Shortcut Command="ReSharper_HumpNextExtend" Scope="Text Editor">Shift+Alt+Right Arrow</Shortcut>
                     <Shortcut Command="ReSharper_HumpPrevExtend" Scope="Text Editor">Shift+Alt+Left Arrow</Shortcut>
+                    <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
+                    <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Shift+P</Shortcut>
+                    <RemoveShortcut Command="View.ZoomIn" Scope="Global">Ctrl+Shift+.</RemoveShortcut>
+                    <Shortcut Command="File.OpenContainingFolder" Scope="Text Editor">Shift+Alt+R</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

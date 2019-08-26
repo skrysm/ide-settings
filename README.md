@@ -16,6 +16,8 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Close All Windows | `Ctrl + Shift + W`
 | Close Other Windows | `Ctrl + Shift + Alt + W`
 | Go to Action/Command | `Ctrl + Shift + P`
+| Open File in Explorer | `Alt + Shift + R`
+| Zoom In/Out | -
 
 ### Code Editing
 

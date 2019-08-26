@@ -131,5 +131,14 @@
     {
         "key": "ctrl+numpad_subtract",
         "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "revealFileInOS"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
     }
 ]

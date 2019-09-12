@@ -32,9 +32,9 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Go To Child Implementation (Interface) | `Alt + End`
 | Go To Parent Implementation (Interface) | `Alt + Home`
 | Go To Next Annotation | `Alt + PgDown`
-| Go To Previous Annoation | `Alt + PgUp`
+| Go To Previous Annotation | `Alt + PgUp`
 | Navigate Back | `Ctrl + -`
-| Naviate Forward | `Ctrl + Shift + -`
+| Navigate Forward | `Ctrl + Shift + -`
 | Go To Line | `Ctrl + G`
 | Toggle Comment | `Ctrl + Shift + 7`
 | Rename (Refactoring) | `Ctrl + R, Ctrl + R`

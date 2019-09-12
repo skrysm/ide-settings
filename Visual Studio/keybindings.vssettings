@@ -614,6 +614,7 @@
                     <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Shift+P</Shortcut>
                     <RemoveShortcut Command="View.ZoomIn" Scope="Global">Ctrl+Shift+.</RemoveShortcut>
                     <Shortcut Command="File.OpenContainingFolder" Scope="Text Editor">Shift+Alt+R</Shortcut>
+                    <Shortcut Command="ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer" Scope="Solution Explorer">Shift+Alt+R</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

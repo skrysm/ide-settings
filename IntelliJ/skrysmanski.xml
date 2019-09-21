@@ -106,11 +106,15 @@
   <action id="PreviousEditorTab" />
   <action id="PreviousTab" />
   <action id="RecentFiles" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Refresh" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
+  <action id="ReplaceInPath" />
   <action id="Rerun" />
   <action id="RerunTests" />
   <action id="RestoreDefaultLayout" />

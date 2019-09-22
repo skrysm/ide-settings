@@ -241,6 +241,26 @@
                     <RemoveShortcut Command="ReSharper.ReSharper_BookmarksBookmarksMenu" Scope="XAML Designer">Ctrl+´</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="Text Editor">Ctrl+,</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="XAML Designer">Ctrl+,</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper_BookmarksToggleBookmark7" Scope="Global">Ctrl+Shift+7</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Text Editor">Shift+Alt+F12</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Text Editor">Shift+Alt+F12</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Text Editor">Shift+F12</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="XAML Designer">Shift+F12</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Global">Shift+Alt+F12</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="XAML Designer">Shift+Alt+F12</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="Text Editor">Ctrl+Alt+Right Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="XAML Designer">Ctrl+Alt+Right Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Ctrl+Alt+Left Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Ctrl+Shift+W</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Alt+Left Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Global">Shift+Alt+F12</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="Global">Ctrl+Shift+A</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="Text Editor">Ctrl+Shift+A</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="XAML Designer">Ctrl+Shift+A</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Shift+Alt+Left Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="XAML Designer">Shift+Alt+Right Arrow</RemoveShortcut>
+                    <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
+                    <RemoveShortcut Command="View.ZoomIn" Scope="Global">Ctrl+Shift+.</RemoveShortcut>
                     <Shortcut Command="ReSharper.ReSharper_ApplyCodeStyle" Scope="XAML Designer">Ctrl+Alt+S</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ApplyCodeStyle" Scope="Text Editor">Ctrl+Alt+S</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ApplyCodeStyle" Scope="Global">Ctrl+Alt+S</Shortcut>
@@ -580,39 +600,19 @@
                     <Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="XAML Designer">Ctrl+Shift+8</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoContainingDeclaration" Scope="XAML Designer">Ctrl+8</Shortcut>
                     <Shortcut Command="Tools.Options" Scope="Global">Ctrl+,</Shortcut>
-                    <RemoveShortcut Command="ReSharper_BookmarksToggleBookmark7" Scope="Global">Ctrl+Shift+7</RemoveShortcut>
                     <Shortcut Command="ReSharper.ReSharper_LineComment" Scope="Text Editor">Ctrl+Shift+7</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Text Editor">Alt+ß</Shortcut>
                     <Shortcut Command="File.CloseAllButThis" Scope="Global">Ctrl+Shift+Alt+W</Shortcut>
                     <Shortcut Command="Window.CloseAllDocuments" Scope="Global">Ctrl+Shift+W</Shortcut>
                     <Shortcut Command="Window.CloseAllDocuments" Scope="Text Editor">Ctrl+Shift+W</Shortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Text Editor">Shift+Alt+F12</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Text Editor">Shift+Alt+F12</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Text Editor">Shift+F12</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="XAML Designer">Shift+F12</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Global">Shift+Alt+F12</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="XAML Designer">Shift+Alt+F12</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="Text Editor">Ctrl+Alt+Right Arrow</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="XAML Designer">Ctrl+Alt+Right Arrow</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Ctrl+Alt+Left Arrow</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Ctrl+Shift+W</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Alt+Left Arrow</RemoveShortcut>
                     <Shortcut Command="ReSharper.ReSharper_FindUsages" Scope="Global">Shift+F12</Shortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Global">Shift+Alt+F12</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="Global">Ctrl+Shift+A</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="Text Editor">Ctrl+Shift+A</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="XAML Designer">Ctrl+Shift+A</RemoveShortcut>
                     <Shortcut Command="ReSharper_HumpNext" Scope="Text Editor">Alt+Right Arrow</Shortcut>
                     <Shortcut Command="ReSharper_HumpPrev" Scope="Text Editor">Alt+Left Arrow</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Shift+Alt+Down Arrow</Shortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Shift+Alt+Left Arrow</RemoveShortcut>
                     <Shortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="Text Editor">Shift+Alt+Up Arrow</Shortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="XAML Designer">Shift+Alt+Right Arrow</RemoveShortcut>
                     <Shortcut Command="ReSharper_HumpNextExtend" Scope="Text Editor">Shift+Alt+Right Arrow</Shortcut>
                     <Shortcut Command="ReSharper_HumpPrevExtend" Scope="Text Editor">Shift+Alt+Left Arrow</Shortcut>
-                    <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
                     <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Shift+P</Shortcut>
-                    <RemoveShortcut Command="View.ZoomIn" Scope="Global">Ctrl+Shift+.</RemoveShortcut>
                     <Shortcut Command="File.OpenContainingFolder" Scope="Text Editor">Shift+Alt+R</Shortcut>
                     <Shortcut Command="ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer" Scope="Solution Explorer">Shift+Alt+R</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoText" Scope="Global">Ctrl+Shift+F</Shortcut>

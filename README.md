@@ -37,7 +37,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Navigate Forward | `Ctrl + Shift + -` | ✓ | ✓ | ✓
 | Go To Line | `Ctrl + G` | ✓ | ✓ | ✓
 | Toggle Comment | `Ctrl + Shift + 7` | ✓ | ✓ | ✓
-| Refactor this | `Ctrl + Shift + R` |  | ✓ | ✓
+| Refactor this | `Ctrl + Shift + R` | × | ✓ | ✓
 | Rename (Refactoring) | `Ctrl + R, Ctrl + R` | ✓ | ✓ | ✓
 | Surround with | `Ctrl + E, U` | × | ✓ | ✓
 | Expand Selection | `Alt + Shift + Up` | ✓ | ✓ | ✓
@@ -46,6 +46,11 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Go to Next Hump | `Alt + Right` | ✓ | ✓ | ✓
 | Block Selection | `Alt` + Mouse | × | ✓ | ✓
 | Block Selection | Middle Mouse Button | ✓ | × | ✓
+| Show Parameter Info | `Ctrl + P` | × | ✓ | ✓
+| Quick Documentation | `Ctrl + Shift + F1` | × | ✓ | ✓
+| Override Methods | `Ctrl + O` | × | ✓ | ✓
+| Cleanup File (with Profile Selection) | `Ctrl + E, C` | × | ✓ | ✓
+| Cleanup File (with Default Profile) | `Ctrl + E, F` | × | ✓ | ✓
 
 ### Running and Debugging
 

@@ -40,36 +40,34 @@ The following tables list the key binding names as they appear in Visual Studio 
 | IDE Settings                                                      | `Tools.Options`                   | Global, Text Editor
 | ReSharper Settings Layers                                         | `ReSharper.ReSharper_ShowSettingsLayersDialog` | Global, Text Editor
 | Save All                                                          | (default)
-| Search Everywhere                                                 | `ReSharper.ReSharper_GotoText`    | Global
-| Find Next                                                         | (default)
-| Find Previous                                                     | (default)
-| Close All Windows                                                 | `Window.CloseAllDocuments`        | Global, Text Editor
-| Close Other Windows                                               | `File.CloseAllButThis`            | Global, Text Editor
-| Go To Previous Editor Tab                                         | `Window.PreviousTab`              | Global, Text Editor
-| Go To Next Editor Tab                                             | `Window.NextTab`                  | Global, Text Editor
 | Go to Action/Command                                              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global (also: remove other key bindings)
 | Open File in Explorer (both editor and project explorer sidebar)  | `File.OpenContainingFolder`       | Text Editor
 | Open File in Explorer (both editor and project explorer sidebar)  | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
 | Locate Current File in Sidebar                                    | (default)
 | Zoom In/Out                                                       | `View.ZoomIn`, `View.ZoomOut`     | -
 
-### Code Editing
+### Windows / Tabs
+
+| Function                  | Key Binding Name              | Scope
+| ------------------------- | ----------------------------- | -----
+| Close All Windows         | `Window.CloseAllDocuments`    | Global, Text Editor
+| Close Other Windows       | `File.CloseAllButThis`        | Global, Text Editor
+| Go To Previous Editor Tab | `Window.PreviousTab`          | Global, Text Editor
+| Go To Next Editor Tab     | `Window.NextTab`              | Global, Text Editor
+
+### Search / Replace
+
+| Function          | Key Binding Name                  | Scope
+| ----------------- | --------------------------------- | -----
+| Search Everywhere | `ReSharper.ReSharper_GotoText`    | Global
+| Find Next         | (default)
+| Find Previous     | (default)
+
+### Editing
 
 | Function                                  | Key Binding Name                          | Scope
 | ----------------------------------------- | ----------------------------------------- | -----
 | Quick Fix                                 | (default)
-| Search Everything/Search for Symbol       | (default)
-| Open File                                 | (default)
-| Go To Implementation                      | (default)
-| Find Usages                               | (default)
-| Go To Member                              | (default)
-| Go To Child Implementation (Interface)    | (default)
-| Go To Parent Implementation (Interface)   | (default)
-| Go To Next Annotation                     | (default)
-| Go To Previous Annotation                 | (default)
-| Navigate Back                             | (default)
-| Navigate Forward                          | (default)
-| Go To Line                                | (default)
 | Toggle Comment                            | `ReSharper.ReSharper_LineComment`         | Text Editor, XAML Designer
 | Refactor this                             | (default)
 | Rename (Refactoring)                      | (default)
@@ -87,7 +85,24 @@ The following tables list the key binding names as they appear in Visual Studio 
 | Cleanup File (with Profile Selection)     | (default)
 | Cleanup File (with Default Profile)       | (default)
 
-### Running and Debugging
+### Navigation
+
+| Function                                  | Key Binding Name
+| ----------------------------------------- | ----------------
+| Search Everything/Search for Symbol       | (default)
+| Open File                                 | (default)
+| Go To Implementation                      | (default)
+| Find Usages                               | (default)
+| Go To Member                              | (default)
+| Go To Child Implementation (Interface)    | (default)
+| Go To Parent Implementation (Interface)   | (default)
+| Go To Next Annotation                     | (default)
+| Go To Previous Annotation                 | (default)
+| Navigate Back                             | (default)
+| Navigate Forward                          | (default)
+| Go To Line                                | (default)
+
+### Running / Debugging
 
 | Function              | Key Binding Name
 | --------------------- | ----------------

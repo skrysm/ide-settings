@@ -11,35 +11,33 @@ This repository contains key maps for various IDEs that make them work like Visu
 | IDE Settings                                                      | `Ctrl + ,`                | ✓ | ✓ | ✓
 | ReSharper Settings Layers                                         | `Ctrl + Shift + ,`        | × | ✓ | ×
 | Save All                                                          | `Ctrl + Shift + S`        | ✓ | ✓ | ✓
-| Search Everywhere                                                 | `Ctrl + Shift + F`        | ✓ | ✓ | ✓
-| Find Next                                                         | `F3`                      | ✓ | ✓ | ✓
-| Find Previous                                                     | `Shift + F3`              | ✓ | ✓ | ✓
-| Close All Windows                                                 | `Ctrl + Shift + W`        | ✓ | ✓ | ✓
-| Close Other Windows                                               | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
-| Go To Previous Editor Tab                                         | `Ctrl + PageUp`           | ✓ | ✓ | ✓
-| Go To Next Editor Tab                                             | `Ctrl + PageDown`         | ✓ | ✓ | ✓
 | Go to Action/Command                                              | `Ctrl + Shift + P`        | ✓ | ✓ | ✓
 | Open File in Explorer (both editor and project explorer sidebar)  | `Alt + Shift + R`         | ✓ | ✓ | ✓
 | Locate Current File in Sidebar                                    | `Alt + Shift + L`         | ✓ | ✓ | ✓
 | Zoom In/Out                                                       | - (removed key bindings)  | ✓ | ✓ | ✓
 
-### Code Editing
+### Windows / Tabs
+
+| Function                  | Key Binding               | VSCode | VS | IntelliJ
+| ------------------------- | ------------------------- | ------ | -- | --------
+| Close All Windows         | `Ctrl + Shift + W`        | ✓ | ✓ | ✓
+| Close Other Windows       | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
+| Go To Previous Editor Tab | `Ctrl + PageUp`           | ✓ | ✓ | ✓
+| Go To Next Editor Tab     | `Ctrl + PageDown`         | ✓ | ✓ | ✓
+
+### Search / Replace
+
+| Function          | Key Binding           | VSCode | VS | IntelliJ
+| ----------------- | --------------------- | ------ | -- | --------
+| Find Next         | `F3`                  | ✓ | ✓ | ✓
+| Find Previous     | `Shift + F3`          | ✓ | ✓ | ✓
+| Search Everywhere | `Ctrl + Shift + F`    | ✓ | ✓ | ✓
+
+### Editing
 
 | Function                                  | Key Binding           | VSCode | VS | IntelliJ
 | ----------------------------------------- | --------------------- | ------ | -- | --------
 | Quick Fix                                 | `Alt + Enter`         | ✓ | ✓ | ✓
-| Search Everything/Search for Symbol       | `Ctrl + T`            | ✓ | ✓ | ✓
-| Open File                                 | `Ctrl + Shift + T`    | ✓ | ✓ | ✓
-| Go To Implementation                      | `F12`                 | ✓ | ✓ | ✓
-| Find Usages                               | `Shift + F12`         | ? | ✓ | ✓
-| Go To Member                              | `Alt + ß`             | × | ✓ | ✓
-| Go To Child Implementation (Interface)    | `Alt + End`           | × | ✓ | ✓
-| Go To Parent Implementation (Interface)   | `Alt + Home`          | × | ✓ | ✓
-| Go To Next Annotation                     | `Alt + PgDown`        | ✓ | ✓ | ✓
-| Go To Previous Annotation                 | `Alt + PgUp`          | ✓ | ✓ | ✓
-| Navigate Back                             | `Ctrl + -`            | ✓ | ✓ | ✓
-| Navigate Forward                          | `Ctrl + Shift + -`    | ✓ | ✓ | ✓
-| Go To Line                                | `Ctrl + G`            | ✓ | ✓ | ✓
 | Toggle Comment                            | `Ctrl + Shift + 7`    | ✓ | ✓ | ✓
 | Refactor this                             | `Ctrl + Shift + R`    | × | ✓ | ✓
 | Rename (Refactoring)                      | `Ctrl + R, Ctrl + R`  | ✓ | ✓ | ✓
@@ -58,7 +56,24 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Cleanup File (with Profile Selection)     | `Ctrl + E, C`         | × | ✓ | ✓
 | Cleanup File (with Default Profile)       | `Ctrl + E, F`         | × | ✓ | ✓
 
-### Running and Debugging
+### Navigation
+
+| Function                                  | Key Binding           | VSCode | VS | IntelliJ
+| ----------------------------------------- | --------------------- | ------ | -- | --------
+| Search Everything/Search for Symbol       | `Ctrl + T`            | ✓ | ✓ | ✓
+| Open File                                 | `Ctrl + Shift + T`    | ✓ | ✓ | ✓
+| Go To Implementation                      | `F12`                 | ✓ | ✓ | ✓
+| Find Usages                               | `Shift + F12`         | ? | ✓ | ✓
+| Go To Member                              | `Alt + ß`             | × | ✓ | ✓
+| Go To Child Implementation (Interface)    | `Alt + End`           | × | ✓ | ✓
+| Go To Parent Implementation (Interface)   | `Alt + Home`          | × | ✓ | ✓
+| Go To Next Annotation                     | `Alt + PgDown`        | ✓ | ✓ | ✓
+| Go To Previous Annotation                 | `Alt + PgUp`          | ✓ | ✓ | ✓
+| Navigate Back                             | `Ctrl + -`            | ✓ | ✓ | ✓
+| Navigate Forward                          | `Ctrl + Shift + -`    | ✓ | ✓ | ✓
+| Go To Line                                | `Ctrl + G`            | ✓ | ✓ | ✓
+
+### Running / Debugging
 
 | Function              | Key Binding   | VSCode | VS | IntelliJ
 | --------------------- | ------------- | ------ | -- | --------

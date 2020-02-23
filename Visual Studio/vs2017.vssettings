@@ -241,7 +241,6 @@
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="XAML Designer">Alt+ß</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_LineComment" Scope="XAML Designer">Ctrl+Alt+7</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_BookmarksBookmarksMenu" Scope="XAML Designer">Ctrl+´</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="Text Editor">Ctrl+,</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="XAML Designer">Ctrl+,</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper_BookmarksToggleBookmark7" Scope="Global">Ctrl+Shift+7</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Text Editor">Shift+Alt+F12</RemoveShortcut>
@@ -264,7 +263,6 @@
                     <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
                     <RemoveShortcut Command="View.ZoomIn" Scope="Global">Ctrl+Shift+.</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="XAML Designer">Ctrl+Shift+,</RemoveShortcut>
-                    <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Text Editor">Ctrl+Shift+,</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper_EnableDaemon" Scope="Global">Ctrl+Shift+Alt+8</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper_EnableDaemon" Scope="Text Editor">Ctrl+Shift+Alt+8</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper_EnableDaemon" Scope="XAML Designer">Ctrl+Shift+Alt+8</RemoveShortcut>
@@ -620,6 +618,8 @@
                     <Shortcut Command="ReSharper_GenerateOverrides" Scope="Text Editor">Ctrl+O</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ShowSettingsLayersDialog" Scope="Global">Ctrl+Shift+,</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_LineComment" Scope="XAML Designer">Ctrl+Shift+7</Shortcut>
+                    <Shortcut Command="Tools.Options" Scope="Text Editor">Ctrl+,</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ShowSettingsLayersDialog" Scope="Text Editor">Ctrl+Shift+,</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

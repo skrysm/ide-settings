@@ -37,7 +37,8 @@ The following tables list the key binding names as they appear in Visual Studio 
 
 | Function                                                          | Key Binding Name                  | Scope
 | ----------------------------------------------------------------- | --------------------------------- | -----
-| IDE Settings                                                      | `Tools.Options`                   | Global
+| IDE Settings                                                      | `Tools.Options`                   | Global, Text Editor
+| ReSharper Settings Layers                                         | `ReSharper.ReSharper_ShowSettingsLayersDialog` | Global, Text Editor
 | Save All                                                          | (default)
 | Search Everywhere                                                 | `ReSharper.ReSharper_GotoText`    | Global
 | Find Next                                                         | (default)

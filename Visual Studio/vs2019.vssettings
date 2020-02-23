@@ -240,10 +240,7 @@
                     <Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="XAML Designer">Alt+PgUp</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="Text Editor">Alt+Up Arrow</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="XAML Designer">Alt+Up Arrow</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Global">Ctrl+Shift+,</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="XAML Designer">Ctrl+Shift+,</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Text Editor">Ctrl+Shift+,</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="Text Editor">Ctrl+,</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="XAML Designer">Ctrl+,</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Global">Ctrl+Alt+F7</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Text Editor">Ctrl+Alt+F7</Shortcut>
@@ -627,6 +624,9 @@
                     <Shortcut Command="ReSharper_HumpNextExtend" Scope="Text Editor">Shift+Alt+Right Arrow</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ParameterInfoShow" Scope="Text Editor">Ctrl+P</Shortcut>
                     <Shortcut Command="ReSharper_GenerateOverrides" Scope="Text Editor">Ctrl+O</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ShowSettingsLayersDialog" Scope="Global">Ctrl+Shift+,</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ShowSettingsLayersDialog" Scope="Text Editor">Ctrl+Shift+,</Shortcut>
+                    <Shortcut Command="Tools.Options" Scope="Text Editor">Ctrl+,</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

@@ -9,6 +9,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Function                                                          | Key Binding               | VSCode | VS | IntelliJ
 | ----------------------------------------------------------------- | ------------------------- | ------ | -- | --------
 | IDE Settings                                                      | `Ctrl + ,`                | ✓ | ✓ | ✓
+| ReSharper Settings Layers                                         | `Ctrl + Shift + ,`        | × | ✓ | ×
 | Save All                                                          | `Ctrl + Shift + S`        | ✓ | ✓ | ✓
 | Search Everywhere                                                 | `Ctrl + Shift + F`        | ✓ | ✓ | ✓
 | Find Next                                                         | `F3`                      | ✓ | ✓ | ✓

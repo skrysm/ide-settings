@@ -63,6 +63,8 @@
                 <DefaultShortcuts/>
                 <ShortcutsScheme>Visual C# 2005</ShortcutsScheme>
                 <UserShortcuts>
+                    <RemoveShortcut Command="MoveLeftEdgetotheleft" Scope="XAML Designer">Ctrl+Shift+,</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Text Editor">Shift+F12</RemoveShortcut>
                     <RemoveShortcut Command="Edit.QuickFindSymbol" Scope="Global">Shift+Alt+F12</RemoveShortcut>
                     <RemoveShortcut Command="Project.AddNewItem" Scope="Global">Ctrl+Shift+A</RemoveShortcut>
                     <RemoveShortcut Command="View.ForwardBrowseContext" Scope="Global">Ctrl+Shift+7</RemoveShortcut>
@@ -595,7 +597,6 @@
                     <Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Text Editor">Alt+´</Shortcut>
                     <Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="Text Editor">Ctrl+Shift+8</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoContainingDeclaration" Scope="Text Editor">Ctrl+8</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="XAML Designer">Ctrl+Shift+7</Shortcut>
                     <Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="XAML Designer">Ctrl+Shift+8</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoContainingDeclaration" Scope="XAML Designer">Ctrl+8</Shortcut>
                     <Shortcut Command="Tools.Options" Scope="Global">Ctrl+,</Shortcut>
@@ -618,6 +619,7 @@
                     <Shortcut Command="ReSharper.ReSharper_ParameterInfoShow" Scope="Text Editor">Ctrl+P</Shortcut>
                     <Shortcut Command="ReSharper_GenerateOverrides" Scope="Text Editor">Ctrl+O</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_ShowSettingsLayersDialog" Scope="Global">Ctrl+Shift+,</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_LineComment" Scope="XAML Designer">Ctrl+Shift+7</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

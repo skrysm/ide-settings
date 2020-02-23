@@ -44,7 +44,9 @@ The following tables list the key binding names as they appear in Visual Studio 
 | Find Next                                                         | (default)
 | Find Previous                                                     | (default)
 | Close All Windows                                                 | `Window.CloseAllDocuments`        | Global, Text Editor
-| Close Other Windows                                               | `File.CloseAllButThis`            | Glboal, Text Editor
+| Close Other Windows                                               | `File.CloseAllButThis`            | Global, Text Editor
+| Go To Previous Editor Tab                                         | `Window.PreviousTab`              | Global, Text Editor
+| Go To Next Editor Tab                                             | `Window.NextTab`                  | Global, Text Editor
 | Go to Action/Command                                              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global
 | Open File in Explorer (both editor and project explorer sidebar)  | `File.OpenContainingFolder`       | Text Editor
 | Open File in Explorer (both editor and project explorer sidebar)  | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer

@@ -16,6 +16,8 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Find Previous                                                     | `Shift + F3`              | ✓ | ✓ | ✓
 | Close All Windows                                                 | `Ctrl + Shift + W`        | ✓ | ✓ | ✓
 | Close Other Windows                                               | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
+| Go To Previous Editor Tab                                         | `Ctrl + PageUp`           | ✓ | ✓ | ✓
+| Go To Next Editor Tab                                             | `Ctrl + PageDown`         | ✓ | ✓ | ✓
 | Go to Action/Command                                              | `Ctrl + Shift + P`        | ✓ | ✓ | ✓
 | Open File in Explorer (both editor and project explorer sidebar)  | `Alt + Shift + R`         | ✓ | ✓ | ✓
 | Locate Current File in Sidebar                                    | `Alt + Shift + L`         | ✓ | ✓ | ✓

@@ -45,6 +45,8 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Shrink Selection                          | `Alt + Shift + Down`  | ✓ | ✓ | ✓
 | Go to Previous Hump                       | `Alt + Left`          | ✓ | ✓ | ✓
 | Go to Next Hump                           | `Alt + Right`         | ✓ | ✓ | ✓
+| Extend Selection to Previous Hump         | `Alt + Shift + Left`  | ✓ | ✓ | ✓
+| Extend Selection to Next Hump             | `Alt + Shift + Right` | ✓ | ✓ | ✓
 | Block Selection                           | `Alt` + Mouse         | × | ✓ | ✓
 | Block Selection                           | Middle Mouse Button   | ✓ | × | ✓
 | Show Parameter Info                       | `Ctrl + P`            | × | ✓ | ✓

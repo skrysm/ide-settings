@@ -75,8 +75,8 @@ The following tables list the key binding names as they appear in Visual Studio 
 | Shrink Selection                          | `ReSharper.ReSharper_ShrinkSelection`     | Text Editor
 | Go to Previous Hump                       | `ReSharper_HumpPrev`                      | Text Editor
 | Go to Next Hump                           | `ReSharper_HumpNext`                      | Text Editor
-| Select Previous Hump                      | `ReSharper_HumpPrevExtend`                | Text Editor
-| Select Next Hump                          | `ReSharper_HumpNextExtend`                | Text Editor
+| Extend Selection to Previous Hump         | `ReSharper_HumpPrevExtend`                | Text Editor
+| Extend Selection to Next Hump             | `ReSharper_HumpNextExtend`                | Text Editor
 | Block Selection                           | (default)
 | Show Parameter Info                       | `ReSharper.ReSharper_ParameterInfoShow`   | Text Editor
 | Quick Documentation                       | (default)

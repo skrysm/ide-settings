@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "*.vssettings": "xml"
+        "*.vssettings": "xml",
+        "*.json": "jsonc"
     },
     "cSpell.ignoreWords": [
         "IntelliJ"

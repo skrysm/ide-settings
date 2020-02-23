@@ -631,6 +631,7 @@
                     <Shortcut Command="Window.PreviousTab" Scope="Global">Ctrl+PgUp</Shortcut>
                     <Shortcut Command="Window.PreviousTab" Scope="Text Editor">Ctrl+PgUp</Shortcut>
                     <Shortcut Command="Window.NextTab" Scope="Global">Ctrl+PgDn</Shortcut>
+                    <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

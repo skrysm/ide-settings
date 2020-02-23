@@ -52,8 +52,8 @@ The following tables list the key binding names as they appear in Visual Studio 
 | ------------------------- | ----------------------------- | -----
 | Close All Windows         | `Window.CloseAllDocuments`    | Global, Text Editor
 | Close Other Windows       | `File.CloseAllButThis`        | Global, Text Editor
-| Go To Previous Editor Tab | `Window.PreviousTab`          | Global, Text Editor
-| Go To Next Editor Tab     | `Window.NextTab`              | Global, Text Editor
+| Go to Previous Editor Tab | `Window.PreviousTab`          | Global, Text Editor
+| Go to Next Editor Tab     | `Window.NextTab`              | Global, Text Editor
 
 ### Search / Replace
 
@@ -68,10 +68,15 @@ The following tables list the key binding names as they appear in Visual Studio 
 | Function                                  | Key Binding Name                          | Scope
 | ----------------------------------------- | ----------------------------------------- | -----
 | Quick Fix                                 | (default)
-| Toggle Comment                            | `ReSharper.ReSharper_LineComment`         | Text Editor, XAML Designer
+| Show Parameter Info                       | `ReSharper.ReSharper_ParameterInfoShow`   | Text Editor
+| Quick Documentation                       | (default)
 | Refactor this                             | (default)
 | Rename (Refactoring)                      | (default)
 | Surround with                             | (default)
+| Override Methods                          | `ReSharper_GenerateOverrides`             | Text Editor
+| Toggle Comment (via Line Comment)         | `ReSharper.ReSharper_LineComment`         | Text Editor, XAML Designer
+| Cleanup File (with Profile Selection)     | (default)
+| Cleanup File (with Default Profile)       | (default)
 | Expand Selection                          | `ReSharper.ReSharper_ExtendSelection`     | Text Editor
 | Shrink Selection                          | `ReSharper.ReSharper_ShrinkSelection`     | Text Editor
 | Go to Previous Hump                       | `ReSharper_HumpPrev`                      | Text Editor
@@ -79,28 +84,23 @@ The following tables list the key binding names as they appear in Visual Studio 
 | Extend Selection to Previous Hump         | `ReSharper_HumpPrevExtend`                | Text Editor
 | Extend Selection to Next Hump             | `ReSharper_HumpNextExtend`                | Text Editor
 | Block Selection                           | (default)
-| Show Parameter Info                       | `ReSharper.ReSharper_ParameterInfoShow`   | Text Editor
-| Quick Documentation                       | (default)
-| Override Methods                          | `ReSharper_GenerateOverrides`             | Text Editor
-| Cleanup File (with Profile Selection)     | (default)
-| Cleanup File (with Default Profile)       | (default)
 
 ### Navigation
 
 | Function                                  | Key Binding Name
 | ----------------------------------------- | ----------------
 | Search Everything/Search for Symbol       | (default)
-| Open File                                 | (default)
-| Go To Implementation                      | (default)
+| Navigate to File                          | (default)
+| Go to Implementation                      | (default)
 | Find Usages                               | (default)
-| Go To Member                              | (default)
-| Go To Child Implementation (Interface)    | (default)
-| Go To Parent Implementation (Interface)   | (default)
-| Go To Next Annotation                     | (default)
-| Go To Previous Annotation                 | (default)
+| Go to Member                              | (default)
+| Go to Child Implementation (Interface)    | (default)
+| Go to Parent Implementation (Interface)   | (default)
+| Go to Previous Annotation                 | (default)
+| Go to Next Annotation                     | (default)
 | Navigate Back                             | (default)
 | Navigate Forward                          | (default)
-| Go To Line                                | (default)
+| Go to Line                                | (default)
 
 ### Running / Debugging
 

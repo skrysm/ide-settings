@@ -194,5 +194,25 @@
     {
         "key": "shift+alt+l",
         "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "shift+f12",
+        "command": "references-view.find",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "-references-view.find",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-goToPreviousReference",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     }
 ]

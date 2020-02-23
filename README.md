@@ -63,7 +63,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Search Everything/Search for Symbol       | `Ctrl + T`            | ✓ | ✓ | ✓
 | Open File                                 | `Ctrl + Shift + T`    | ✓ | ✓ | ✓
 | Go To Implementation                      | `F12`                 | ✓ | ✓ | ✓
-| Find Usages                               | `Shift + F12`         | ? | ✓ | ✓
+| Find Usages                               | `Shift + F12`         | ✓ | ✓ | ✓
 | Go To Member                              | `Alt + ß`             | × | ✓ | ✓
 | Go To Child Implementation (Interface)    | `Alt + End`           | × | ✓ | ✓
 | Go To Parent Implementation (Interface)   | `Alt + Home`          | × | ✓ | ✓

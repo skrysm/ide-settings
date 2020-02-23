@@ -190,5 +190,9 @@
         "key": "alt+down",
         "command": "-editor.action.moveLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     }
 ]

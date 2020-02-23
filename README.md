@@ -17,6 +17,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Close Other Windows | `Ctrl + Shift + Alt + W` | ✓ | ✓ | ✓
 | Go to Action/Command | `Ctrl + Shift + P` | ✓ | ✓ | ✓
 | Open File in Explorer (both editor and project explorer sidebar) | `Alt + Shift + R` | ✓ | ✓ | ✓
+| Locate Current File in Sidebar | `Alt + Shift + L` | ✓ | ✓ | ✓
 | Zoom In/Out | - (removed key bindings) | ✓ | ✓ | ✓
 
 ### Code Editing

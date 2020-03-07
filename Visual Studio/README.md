@@ -31,29 +31,35 @@ Say `No, just import new settings` and follow import wizard.
 
 When switching to a new Visual Studio version (e.g. 2017 to 2019) you may wish to recreate the key bindings from scratch rather than importing them from the previous Visual Studio version.
 
-The following tables list the key binding names as they appear in Visual Studio ("(default)" here means that the key binding has the correct value out-of-the-box):
+The following tables list the key binding names as they appear in Visual Studio ("(default)" here means that the key binding has the correct value out-of-the-box).
+
+**Notes:**
+
+* **For every key binding:** Always check the "Shortcut currently used by" drop down for *every* key binding and remove all other conflicting key bindings.
+* As "Scope" we use "Global" everywhere - unless the keybinding must be restricted to a certain scope. This way we make sure that the keybindings don't have other meaning in other parts of Visual Studio.
+* Keybindings with scope "Text Editor" are applied to every text editor (including XAML, XML, HTML...). So there's no need to define the same keybindings for different text editor types.
 
 ### General
 
 | Function                                                          | Key Binding Name                  | Scope
 | ----------------------------------------------------------------- | --------------------------------- | -----
-| IDE Settings                                                      | `Tools.Options`                   | Global, Text Editor
-| ReSharper Settings Layers                                         | `ReSharper.ReSharper_ShowSettingsLayersDialog` | Global, Text Editor
+| IDE Settings                                                      | `Tools.Options`                   | Global
+| ReSharper Settings Layers                                         | `ReSharper.ReSharper_ShowSettingsLayersDialog` | Global
 | Save All                                                          | (default)
-| Go to Action/Command                                              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global (also: remove other key bindings)
+| Go to Action/Command                                              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global
 | Open File in Explorer (both editor and project explorer sidebar)  | `File.OpenContainingFolder`       | Text Editor
 | Open File in Explorer (both editor and project explorer sidebar)  | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
 | Locate Current File in Sidebar                                    | (default)
-| Zoom In/Out                                                       | `View.ZoomIn`, `View.ZoomOut`     | -
+| Zoom In/Out                                                       | `View.ZoomIn`, `View.ZoomOut`     | (Remove)
 
 ### Windows / Tabs
 
 | Function                  | Key Binding Name              | Scope
 | ------------------------- | ----------------------------- | -----
-| Close All Windows         | `Window.CloseAllDocuments`    | Global, Text Editor
-| Close Other Windows       | `File.CloseAllButThis`        | Global, Text Editor
-| Go to Previous Editor Tab | `Window.PreviousTab`          | Global, Text Editor
-| Go to Next Editor Tab     | `Window.NextTab`              | Global, Text Editor
+| Close All Windows         | `Window.CloseAllDocuments`    | Global
+| Close Other Windows       | `File.CloseAllButThis`        | Global
+| Go to Previous Editor Tab | `Window.PreviousTab`          | Global
+| Go to Next Editor Tab     | `Window.NextTab`              | Global
 
 ### Search / Replace
 
@@ -68,22 +74,24 @@ The following tables list the key binding names as they appear in Visual Studio 
 | Function                                  | Key Binding Name                          | Scope
 | ----------------------------------------- | ----------------------------------------- | -----
 | Quick Fix                                 | (default)
-| Show Parameter Info                       | `ReSharper.ReSharper_ParameterInfoShow`   | Text Editor
+| Show Parameter Info                       | `ReSharper.ReSharper_ParameterInfoShow`   | Global
 | Quick Documentation                       | (default)
 | Refactor this                             | (default)
 | Rename (Refactoring)                      | (default)
 | Surround with                             | (default)
-| Override Methods                          | `ReSharper_GenerateOverrides`             | Text Editor
-| Toggle Comment (via Line Comment)         | `ReSharper.ReSharper_LineComment`         | Text Editor, XAML Designer
+| Override Methods                          | `ReSharper_GenerateOverrides`             | Global
+| Toggle Comment (via Line Comment)         | `ReSharper.ReSharper_LineComment`         | Global
 | Cleanup File (with Profile Selection)     | (default)
 | Cleanup File (with Default Profile)       | (default)
-| Expand Selection                          | `ReSharper.ReSharper_ExtendSelection`     | Text Editor
-| Shrink Selection                          | `ReSharper.ReSharper_ShrinkSelection`     | Text Editor
-| Go to Previous Hump                       | `ReSharper_HumpPrev`                      | Text Editor
-| Go to Next Hump                           | `ReSharper_HumpNext`                      | Text Editor
-| Extend Selection to Previous Hump         | `ReSharper_HumpPrevExtend`                | Text Editor
-| Extend Selection to Next Hump             | `ReSharper_HumpNextExtend`                | Text Editor
+| Expand Selection                          | `ReSharper.ReSharper_ExtendSelection`     | Global
+| Shrink Selection                          | `ReSharper.ReSharper_ShrinkSelection`     | Global
+| Go to Previous Hump                       | `ReSharper_HumpPrev`                      | Global
+| Go to Next Hump                           | `ReSharper_HumpNext`                      | Global
+| Extend Selection to Previous Hump         | `ReSharper_HumpPrevExtend`                | Global
+| Extend Selection to Next Hump             | `ReSharper_HumpNextExtend`                | Global
 | Block Selection                           | (default)
+
+**Note:** For "Toggle Comment" we still use the ReSharper functionality in VS2019, as the VS2019 functionality doesn't work, for example, in XAML.
 
 ### Navigation
 

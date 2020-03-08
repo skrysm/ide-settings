@@ -21,6 +21,8 @@ Then export.
 
 ## Importing Key Bindings
 
+Optional: Tools -> Options -> Keyboard -> Reset
+
 Go to:
 
     Tools -> Import and Export Settings... -> Import selected environment settings
@@ -49,7 +51,7 @@ The underlying keymap is: **Visual C# 2005**
 | ReSharper Settings Layers                                         | `ReSharper.ReSharper_ShowSettingsLayersDialog` | Global
 | Save All                                                          | (default)
 | Go to Action/Command                                              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global
-| Open File in Explorer (both editor and project explorer sidebar)  | `File.OpenContainingFolder`       | Text Editor
+| Open File in Explorer (both editor and project explorer sidebar)  | `File.OpenContainingFolder`       | Global
 | Open File in Explorer (both editor and project explorer sidebar)  | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
 | Locate Current File in Sidebar                                    | (default)
 | Zoom In/Out                                                       | `View.ZoomIn`, `View.ZoomOut`     | (Remove)
@@ -67,9 +69,9 @@ The underlying keymap is: **Visual C# 2005**
 
 | Function          | Key Binding Name                  | Scope
 | ----------------- | --------------------------------- | -----
-| Search Everywhere | `ReSharper.ReSharper_GotoText`    | Global
 | Find Next         | (default)
 | Find Previous     | (default)
+| Search Everywhere | `ReSharper.ReSharper_GotoText`    | Global
 
 ### Editing
 

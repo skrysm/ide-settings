@@ -10,6 +10,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | ----------------------------------------------------------------- | ------------------------- | ------ | -- | --------
 | IDE Settings                                                      | `Ctrl + ,`                | ✓ | ✓ | ✓
 | ReSharper Settings Layers                                         | `Ctrl + Shift + ,`        | × | ✓ | ×
+| Open File                                                         | `Ctrl + Shift + O`        | ✓ | ✓ | ✓
 | Save All                                                          | `Ctrl + Shift + S`        | ✓ | ✓ | ✓
 | Go to Action/Command                                              | `Ctrl + Shift + P`        | ✓ | ✓ | ✓
 | Open File in Explorer (both editor and project explorer sidebar)  | `Alt + Shift + R`         | ✓ | ✓ | ✓

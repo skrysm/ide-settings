@@ -49,6 +49,7 @@ The underlying keymap is: **Visual C# 2005**
 | ----------------------------------------------------------------- | --------------------------------- | -----
 | IDE Settings                                                      | `Tools.Options`                   | Global
 | ReSharper Settings Layers                                         | `ReSharper.ReSharper_ShowSettingsLayersDialog` | Global
+| Open File                                                         | `File.OpenFile`                   | Global
 | Save All                                                          | (default)
 | Go to Action/Command                                              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global
 | Open File in Explorer (both editor and project explorer sidebar)  | `File.OpenContainingFolder`       | Global

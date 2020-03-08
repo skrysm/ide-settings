@@ -622,6 +622,8 @@
                     <Shortcut Command="Window.NextTab" Scope="Text Editor">Ctrl+PgDn</Shortcut>
                     <Shortcut Command="Window.PreviousTab" Scope="Text Editor">Ctrl+PgUp</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="Global">Ctrl+Shift+Alt+7</Shortcut>
+                    <RemoveShortcut Command="File.OpenFile" Scope="Global">Ctrl+O</RemoveShortcut>
+                    <Shortcut Command="File.OpenFile" Scope="Global">Ctrl+Shift+O</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

@@ -35,26 +35,27 @@ This repository contains key maps for various IDEs that make them work like Visu
 
 ### Editing
 
-| Function                                  | Key Binding           | VSCode | VS | IntelliJ
-| ----------------------------------------- | --------------------- | ------ | -- | --------
-| Quick Fix                                 | `Alt + Enter`         | ✓ | ✓ | ✓
-| Show Parameter Info                       | `Ctrl + P`            | × | ✓ | ✓
-| Quick Documentation                       | `Ctrl + Shift + F1`   | × | ✓ | ✓
-| Refactor this                             | `Ctrl + Shift + R`    | × | ✓ | ✓
-| Rename (Refactoring)                      | `Ctrl + R, Ctrl + R`  | ✓ | ✓ | ✓
-| Surround with                             | `Ctrl + E, U`         | × | ✓ | ✓
-| Override Methods                          | `Ctrl + O`            | × | ✓ | ✓
-| Toggle Comment (via Line Comment)         | `Ctrl + Shift + 7`    | ✓ | ✓ | ✓
-| Cleanup File (with Profile Selection)     | `Ctrl + E, C`         | × | ✓ | ✓
-| Cleanup File (with Default Profile)       | `Ctrl + E, F`         | × | ✓ | ✓
-| Expand Selection                          | `Alt + Shift + Up`    | ✓ | ✓ | ✓
-| Shrink Selection                          | `Alt + Shift + Down`  | ✓ | ✓ | ✓
-| Go to Previous Hump                       | `Alt + Left`          | ✓ | ✓ | ✓
-| Go to Next Hump                           | `Alt + Right`         | ✓ | ✓ | ✓
-| Extend Selection to Previous Hump         | `Alt + Shift + Left`  | ✓ | ✓ | ✓
-| Extend Selection to Next Hump             | `Alt + Shift + Right` | ✓ | ✓ | ✓
-| Block Selection                           | `Alt` + Mouse         | × | ✓ | ✓
-| Block Selection                           | Middle Mouse Button   | ✓ | × | ✓
+| Function                                  | Key Binding               | VSCode | VS | IntelliJ
+| ----------------------------------------- | ------------------------- | ------ | -- | --------
+| Quick Fix                                 | `Alt + Enter`             | ✓ | ✓ | ✓
+| Show Parameter Info                       | `Ctrl + P`                | × | ✓ | ✓
+| Quick Documentation                       | `Ctrl + Shift + F1`       | × | ✓ | ✓
+| Refactor this                             | `Ctrl + Shift + R`        | × | ✓ | ✓
+| Rename (Refactoring)                      | `Ctrl + R, Ctrl + R`      | ✓ | ✓ | ✓
+| Surround with                             | `Ctrl + E, U`             | × | ✓ | ✓
+| Override Methods                          | `Ctrl + O`                | × | ✓ | ✓
+| Toggle Line Comment                       | `Ctrl + Shift + 7`        | ✓ | ✓ | ✓
+| Toggle Block Comment                      | `Ctrl + Shift + Alt + 7`  | ✓ | ✓ | ✓
+| Cleanup File (with Profile Selection)     | `Ctrl + E, C`             | × | ✓ | ✓
+| Cleanup File (with Default Profile)       | `Ctrl + E, F`             | × | ✓ | ✓
+| Expand Selection                          | `Alt + Shift + Up`        | ✓ | ✓ | ✓
+| Shrink Selection                          | `Alt + Shift + Down`      | ✓ | ✓ | ✓
+| Go to Previous Hump                       | `Alt + Left`              | ✓ | ✓ | ✓
+| Go to Next Hump                           | `Alt + Right`             | ✓ | ✓ | ✓
+| Extend Selection to Previous Hump         | `Alt + Shift + Left`      | ✓ | ✓ | ✓
+| Extend Selection to Next Hump             | `Alt + Shift + Right`     | ✓ | ✓ | ✓
+| Block Selection                           | `Alt` + Mouse             | × | ✓ | ✓
+| Block Selection                           | Middle Mouse Button       | ✓ | × | ✓
 
 ### Navigation
 

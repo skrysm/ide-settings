@@ -548,9 +548,6 @@
                     <Shortcut Command="ReSharper_EnableDaemon" Scope="Global">Ctrl+Shift+Alt+8</Shortcut>
                     <Shortcut Command="ReSharper_EnableDaemon" Scope="Text Editor">Ctrl+Shift+Alt+8</Shortcut>
                     <Shortcut Command="ReSharper_EnableDaemon" Scope="XAML Designer">Ctrl+Shift+Alt+8</Shortcut>
-                    <Shortcut Command="ReSharper_EnableDaemonForFilesInProjectFromNugetPackages" Scope="Text Editor">Ctrl+Shift+Alt+7</Shortcut>
-                    <Shortcut Command="ReSharper_EnableDaemonForFilesInProjectFromNugetPackages" Scope="Global">Ctrl+Shift+Alt+7</Shortcut>
-                    <Shortcut Command="ReSharper_EnableDaemonForFilesInProjectFromNugetPackages" Scope="XAML Designer">Ctrl+Shift+Alt+7</Shortcut>
                     <Shortcut Command="ReSharper_EnableDaemonForFilesInSolutionFromNugetPackages" Scope="XAML Designer">Ctrl+Shift+Alt+6</Shortcut>
                     <Shortcut Command="ReSharper_EnableDaemonForFilesInSolutionFromNugetPackages" Scope="Text Editor">Ctrl+Shift+Alt+6</Shortcut>
                     <Shortcut Command="ReSharper_EnableDaemonForFilesInSolutionFromNugetPackages" Scope="Global">Ctrl+Shift+Alt+6</Shortcut>
@@ -675,6 +672,10 @@
                     <RemoveShortcut Command="Edit.Indent" Scope="Work Item Results View">Shift+Alt+Right Arrow</RemoveShortcut>
                     <RemoveShortcut Command="Edit.Indent" Scope="Work Item Query View">Shift+Alt+Right Arrow</RemoveShortcut>
                     <RemoveShortcut Command="Edit.CharRightExtendColumn" Scope="Text Editor">Shift+Alt+Right Arrow</RemoveShortcut>
+
+                    <Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="Global">Ctrl+Shift+Alt+7</Shortcut>
+                    <RemoveShortcut Command="ReSharper_EnableDaemonForFilesInProjectFromNugetPackages" Scope="XAML Designer">Ctrl+Shift+Alt+7</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper_EnableDaemonForFilesInProjectFromNugetPackages" Scope="Text Editor">Ctrl+Shift+Alt+7</RemoveShortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

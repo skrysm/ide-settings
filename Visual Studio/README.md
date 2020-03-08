@@ -84,7 +84,8 @@ The underlying keymap is: **Visual C# 2005**
 | Rename (Refactoring)                      | (default)
 | Surround with                             | (default)
 | Override Methods                          | `ReSharper_GenerateOverrides`             | Global
-| Toggle Comment (via Line Comment)         | `ReSharper.ReSharper_LineComment`         | Global
+| Toggle Line Comment                       | `ReSharper.ReSharper_LineComment`         | Global
+| Toggle Block Comment                      | `ReSharper.ReSharper_BlockComment`        | Global
 | Cleanup File (with Profile Selection)     | (default)
 | Cleanup File (with Default Profile)       | (default)
 | Expand Selection                          | `ReSharper.ReSharper_ExtendSelection`     | Global

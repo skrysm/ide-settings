@@ -33,6 +33,8 @@ When switching to a new Visual Studio version (e.g. 2017 to 2019) you may wish t
 
 The following tables list the key binding names as they appear in Visual Studio ("(default)" here means that the key binding has the correct value out-of-the-box).
 
+The underlying keymap is: **Visual C# 2005**
+
 **Notes:**
 
 * **For every key binding:** Always check the "Shortcut currently used by" drop down for *every* key binding and remove all other conflicting key bindings.

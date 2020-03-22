@@ -6,16 +6,20 @@ This repository contains key maps for various IDEs that make them work like Visu
 
 ### General
 
-| Function                                                          | Key Binding               | VSCode | VS | IntelliJ
-| ----------------------------------------------------------------- | ------------------------- | ------ | -- | --------
-| IDE Settings                                                      | `Ctrl + ,`                | ✓ | ✓ | ✓
-| ReSharper Settings Layers                                         | `Ctrl + Shift + ,`        | × | ✓ | ×
-| Open File                                                         | `Ctrl + Shift + O`        | ✓ | ✓ | ✓
-| Save All                                                          | `Ctrl + Shift + S`        | ✓ | ✓ | ✓
-| Go to Action/Command                                              | `Ctrl + Shift + P`        | ✓ | ✓ | ✓
-| Open File in Explorer (both editor and project explorer sidebar)  | `Alt + Shift + R`         | ✓ | ✓ | ✓
-| Locate Current File in Sidebar                                    | `Alt + Shift + L`         | ✓ | ✓ | ✓
-| Zoom In/Out                                                       | - (removed key bindings)  | ✓ | ✓ | ✓
+| Function                          | Key Binding               | VSCode | VS | IntelliJ
+| --------------------------------- | ------------------------- | ------ | -- | --------
+| IDE Settings                      | `Ctrl + ,`                | ✓ | ✓ | ✓
+| ReSharper Settings Layers         | `Ctrl + Shift + ,`        | × | ✓ | ×
+| Open File                         | `Ctrl + Shift + O`        | ✓ | ✓ | ✓
+| Save All                          | `Ctrl + Shift + S`        | ✓ | ✓ | ✓
+| Go to Action/Command              | `Ctrl + Shift + P`        | ✓ | ✓ | ✓
+| Open File in Explorer [1]         | `Alt + Shift + R`         | ✓ | ✓ | ✓
+| Locate Current File in Sidebar    | `Alt + Shift + L`         | ✓ | ✓ | ✓
+| Zoom In/Out                       | - (removed key bindings)  | ✓ | ✓ | ✓
+
+*Footnotes:*
+
+1.  Both in editor and project explorer sidebar.
 
 ### Windows / Tabs
 

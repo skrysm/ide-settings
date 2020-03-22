@@ -1,4 +1,4 @@
-﻿# Visual Studio 2017 Key Bindings
+﻿# Visual Studio Key Bindings
 
 ## Export
 

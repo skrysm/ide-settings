@@ -236,5 +236,13 @@
     {
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
     }
 ]

@@ -45,17 +45,18 @@ The underlying keymap is: **Visual C# 2005**
 
 ### General
 
-| Function                                                          | Key Binding Name                  | Scope
-| ----------------------------------------------------------------- | --------------------------------- | -----
-| IDE Settings                                                      | `Tools.Options`                   | Global
-| ReSharper Settings Layers                                         | `ReSharper.ReSharper_ShowSettingsLayersDialog` | Global
-| Open File                                                         | `File.OpenFile`                   | Global
-| Save All                                                          | (default)
-| Go to Action/Command                                              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global
-| Open File in Explorer (both editor and project explorer sidebar)  | `File.OpenContainingFolder`       | Global
-| Open File in Explorer (both editor and project explorer sidebar)  | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
-| Locate Current File in Sidebar                                    | (default)
-| Zoom In/Out                                                       | `View.ZoomIn`, `View.ZoomOut`     | (Remove)
+| Function                          | Key Binding Name                                  | Scope
+| ----------------------------------| ------------------------------------------------- | -----
+| IDE Settings                      | `Tools.Options`                                   | Global
+| ReSharper Settings Layers         | `ReSharper.ReSharper_ShowSettingsLayersDialog`    | Global
+| New File in Current Directory     | `ReSharper.ReSharper_GenerateFileBesides`         | Global
+| Open File                         | `File.OpenFile`                                   | Global
+| Save All                          | (default)
+| Go to Action/Command              | `Window.ActivateQuickLaunch` (VS2017), `Window.QuickLaunch` (VS2019) | Global
+| Open File in Explorer             | `File.OpenContainingFolder`                       | Global
+| Open File in Explorer             | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
+| Locate Current File in Sidebar    | (default)
+| Zoom In/Out                       | `View.ZoomIn`, `View.ZoomOut`                     | (Remove)
 
 ### Windows / Tabs
 

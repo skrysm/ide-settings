@@ -107,6 +107,10 @@
   <action id="JumpToLastWindow" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
+  <action id="NewElementSamePlace">
+    <keyboard-shortcut first-keystroke="ctrl alt insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl page_down" />

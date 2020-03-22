@@ -10,15 +10,17 @@ This repository contains key maps for various IDEs that make them work like Visu
 | --------------------------------- | ------------------------- | ------ | -- | --------
 | IDE Settings                      | `Ctrl + ,`                | ✓ | ✓ | ✓
 | ReSharper Settings Layers         | `Ctrl + Shift + ,`        | × | ✓ | ×
+| New File in Current Directory     | `Ctrl + Shift + N` [1]    | ✓ | ✓ | ✓
 | Open File                         | `Ctrl + Shift + O`        | ✓ | ✓ | ✓
 | Save All                          | `Ctrl + Shift + S`        | ✓ | ✓ | ✓
 | Go to Action/Command              | `Ctrl + Shift + P`        | ✓ | ✓ | ✓
-| Open File in Explorer [1]         | `Alt + Shift + R`         | ✓ | ✓ | ✓
+| Open File in Explorer [2]         | `Alt + Shift + R`         | ✓ | ✓ | ✓
 | Locate Current File in Sidebar    | `Alt + Shift + L`         | ✓ | ✓ | ✓
 | Zoom In/Out                       | - (removed key bindings)  | ✓ | ✓ | ✓
 
 *Footnotes:*
 
+1.  This key binding uses `Ctrl + Shift + N` (instead of `Ctrl + N`) to be consistent with the "Open File" key binding.
 1.  Both in editor and project explorer sidebar.
 
 ### Windows / Tabs

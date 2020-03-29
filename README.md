@@ -10,17 +10,17 @@ This repository contains key maps for various IDEs that make them work like Visu
 | --------------------------------- | ------------------------- | ------ | -- | --------
 | IDE Settings                      | `Ctrl + ,`                | ✓ | ✓ | ✓
 | ReSharper Settings Layers         | `Ctrl + Shift + ,`        | × | ✓ | ×
-| New File in Current Directory     | `Ctrl + Shift + N` [1]    | ✓ | ✓ | ✓
-| Open File                         | `Ctrl + Shift + O`        | ✓ | ✓ | ✓
+| New File in Current Directory     | `Ctrl + N`                | ✓ | ✓ | ✓
+| New Folder (in Sidebar)           | `Ctrl + Shift + N`        | ✓ | ✓ | ✓
+| Open File                         | `Ctrl + O`                | ✓ | ✓ | ✓
 | Save All                          | `Ctrl + Shift + S`        | ✓ | ✓ | ✓
-| Go to Action/Command              | `Ctrl + Shift + P`        | ✓ | ✓ | ✓
-| Open File in Explorer [2]         | `Alt + Shift + R`         | ✓ | ✓ | ✓
+| Go to Action/Command              | `Ctrl + Shift + A`        | ✓ | ✓ | ✓
+| Open File in Explorer [1]         | `Alt + Shift + R`         | ✓ | ✓ | ✓
 | Locate Current File in Sidebar    | `Alt + Shift + L`         | ✓ | ✓ | ✓
 | Zoom In/Out                       | - (removed key bindings)  | ✓ | ✓ | ✓
 
 *Footnotes:*
 
-1.  This key binding uses `Ctrl + Shift + N` (instead of `Ctrl + N`) to be consistent with the "Open File" key binding.
 1.  Both in editor and project explorer sidebar.
 
 ### Windows / Tabs
@@ -50,7 +50,7 @@ This repository contains key maps for various IDEs that make them work like Visu
 | Refactor this                             | `Ctrl + Shift + R`        | × | ✓ | ✓
 | Rename (Refactoring)                      | `Ctrl + R, Ctrl + R`      | ✓ | ✓ | ✓
 | Surround with                             | `Ctrl + E, U`             | × | ✓ | ✓
-| Override Methods                          | `Ctrl + O`                | × | ✓ | ✓
+| Override Methods                          | `Ctrl + Shift + O`        | × | ✓ | ✓
 | Toggle Line Comment                       | `Ctrl + Shift + 7`        | ✓ | ✓ | ✓
 | Toggle Block Comment                      | `Ctrl + Shift + Alt + 7`  | ✓ | ✓ | ✓
 | Cleanup File (with Profile Selection)     | `Ctrl + E, C`             | × | ✓ | ✓

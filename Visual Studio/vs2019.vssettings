@@ -194,12 +194,6 @@
                     <Shortcut Command="ReSharper.ReSharper_Generate" Scope="Global">Alt+Ins</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_Generate" Scope="Text Editor">Alt+Ins</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_Generate" Scope="XAML Designer">Alt+Ins</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Text Editor">Ctrl+Alt+Ins</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+Alt+Ins</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="XAML Designer">Ctrl+Alt+Ins</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GotoAction" Scope="Text Editor">Ctrl+Shift+A</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GotoAction" Scope="Global">Ctrl+Shift+A</Shortcut>
-                    <Shortcut Command="ReSharper.ReSharper_GotoAction" Scope="XAML Designer">Ctrl+Shift+A</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="XAML Designer">Alt+Home</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Text Editor">Alt+Home</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Global">Alt+Home</Shortcut>
@@ -606,14 +600,19 @@
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="XAML Designer">Ctrl+Shift+,</RemoveShortcut>
                     <RemoveShortcut Command="MoveLeftEdgetotheleft" Scope="XAML Designer">Ctrl+Shift+,</RemoveShortcut>
 
-                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+Shift+N</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+N</Shortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+Alt+Ins</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="XAML Designer">Ctrl+Alt+Ins</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Text Editor">Ctrl+Alt+Ins</RemoveShortcut>
+
+                    <Shortcut Command="ReSharper_GenerateNewFolder" Scope="Solution Explorer">Ctrl+Shift+N</Shortcut>
+                    <RemoveShortcut Command="File.NewProject" Scope="Global">Ctrl+Shift+N</RemoveShortcut>
                     <RemoveShortcut Command="View.ASP.NETNonvisualControls" Scope="HTML Editor Design View">Ctrl+Shift+N</RemoveShortcut>
 
-                    <Shortcut Command="File.OpenFile" Scope="Global">Ctrl+Shift+O</Shortcut>
-
-                    <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Shift+P</Shortcut>
+                    <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Shift+A</Shortcut>
                     <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
-                    <RemoveShortcut Command="EditorContextMenus.CodeWindow.EditLocalFile" Scope="Difference Viewer">Ctrl+Shift+P</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="XAML Designer">Ctrl+Shift+A</RemoveShortcut>
+                    <RemoveShortcut Command="ReSharper.ReSharper_GotoAction" Scope="Text Editor">Ctrl+Shift+A</RemoveShortcut>
 
                     <Shortcut Command="File.OpenContainingFolder" Scope="Global">Shift+Alt+R</Shortcut>
                     <Shortcut Command="ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer" Scope="Solution Explorer">Shift+Alt+R</Shortcut>
@@ -640,7 +639,7 @@
 
                     <Shortcut Command="ReSharper.ReSharper_ParameterInfoShow" Scope="Global">Ctrl+P</Shortcut>
 
-                    <Shortcut Command="ReSharper_GenerateOverrides" Scope="Global">Ctrl+O</Shortcut>
+                    <Shortcut Command="ReSharper_GenerateOverrides" Scope="Global">Ctrl+Shift+O</Shortcut>
 
                     <Shortcut Command="ReSharper.ReSharper_LineComment" Scope="Global">Ctrl+Shift+7</Shortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_LineComment" Scope="Text Editor">Ctrl+Alt+7</RemoveShortcut>

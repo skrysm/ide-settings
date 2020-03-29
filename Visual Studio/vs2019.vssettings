@@ -50,6 +50,7 @@
                     <Scope Name="Windows Forms Designer" ID="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}"/>
                     <Scope Name="VC Accelerator Editor" ID="{EB56D0B5-BEE7-4D0C-8BE6-88A8ED256695}"/>
                     <Scope Name="Managed Resources Editor" ID="{FEA4DCC9-3645-44CD-92E7-84B55A16465C}"/>
+                    <Scope Name="Parallel Stacks Window" ID="{B9A151CE-EF7C-4FE1-A6AA-4777E6E518F3}"/>
                     <Scope Name="FSharpEditorFactory" ID="{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"/>
                     <Scope Name="Locals Window" ID="{4A18F9D0-B838-11D0-93EB-00A0C90F2734}"/>
                     <Scope Name="JavaScript Console" ID="{074F1AD9-308B-488C-861E-CF88182E2788}"/>
@@ -605,6 +606,11 @@
                     <RemoveShortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="XAML Designer">Ctrl+Shift+,</RemoveShortcut>
                     <RemoveShortcut Command="MoveLeftEdgetotheleft" Scope="XAML Designer">Ctrl+Shift+,</RemoveShortcut>
 
+                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+Shift+N</Shortcut>
+                    <RemoveShortcut Command="View.ASP.NETNonvisualControls" Scope="HTML Editor Design View">Ctrl+Shift+N</RemoveShortcut>
+
+                    <Shortcut Command="File.OpenFile" Scope="Global">Ctrl+Shift+O</Shortcut>
+
                     <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Shift+P</Shortcut>
                     <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
                     <RemoveShortcut Command="EditorContextMenus.CodeWindow.EditLocalFile" Scope="Difference Viewer">Ctrl+Shift+P</RemoveShortcut>
@@ -676,11 +682,6 @@
                     <Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="Global">Ctrl+Shift+Alt+7</Shortcut>
                     <RemoveShortcut Command="ReSharper_EnableDaemonForFilesInProjectFromNugetPackages" Scope="XAML Designer">Ctrl+Shift+Alt+7</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper_EnableDaemonForFilesInProjectFromNugetPackages" Scope="Text Editor">Ctrl+Shift+Alt+7</RemoveShortcut>
-
-                    <Shortcut Command="File.OpenFile" Scope="Global">Ctrl+Shift+O</Shortcut>
-
-                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+Shift+N</Shortcut>
-                    <RemoveShortcut Command="View.ASP.NETNonvisualControls" Scope="HTML Editor Design View">Ctrl+Shift+N</RemoveShortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

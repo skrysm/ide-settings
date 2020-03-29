@@ -620,6 +620,8 @@
 
                     <RemoveShortcut Command="View.ZoomIn" Scope="Global">Ctrl+Shift+.</RemoveShortcut>
 
+                    <Shortcut Command="Window.CloseDocumentWindow" Scope="Global">Ctrl+W</Shortcut>
+
                     <Shortcut Command="Window.CloseAllDocuments" Scope="Global">Ctrl+Shift+W</Shortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Shift+W</RemoveShortcut>
                     <RemoveShortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML Designer">Ctrl+Shift+W</RemoveShortcut>

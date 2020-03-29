@@ -63,8 +63,9 @@ The underlying keymap is: **Visual C# 2005**
 
 | Function                  | Key Binding Name              | Scope
 | ------------------------- | ----------------------------- | -----
-| Close All Windows         | `Window.CloseAllDocuments`    | Global
-| Close Other Windows       | `File.CloseAllButThis`        | Global
+| Close Current Tab         | `Window.CloseDocumentWindow`  | Global
+| Close All Tabs            | `Window.CloseAllDocuments`    | Global
+| Close Other Tabs          | `File.CloseAllButThis`        | Global
 | Go to Previous Editor Tab | `Window.PreviousTab`          | Global
 | Go to Next Editor Tab     | `Window.NextTab`              | Global
 

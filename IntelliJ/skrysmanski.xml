@@ -9,6 +9,10 @@
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CodeCleanup">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="c" />
   </action>

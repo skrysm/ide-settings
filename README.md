@@ -27,8 +27,9 @@ This repository contains key maps for various IDEs that make them work like Visu
 
 | Function                  | Key Binding               | VSCode | VS | IntelliJ
 | ------------------------- | ------------------------- | ------ | -- | --------
-| Close All Windows         | `Ctrl + Shift + W`        | ✓ | ✓ | ✓
-| Close Other Windows       | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
+| Close Current Tab         | `Ctrl + W`                | ✓ | ✓ | ✓
+| Close All Tabs            | `Ctrl + Shift + W`        | ✓ | ✓ | ✓
+| Close Other Tabs          | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
 | Go to Previous Editor Tab | `Ctrl + PageUp`           | ✓ | ✓ | ✓
 | Go to Next Editor Tab     | `Ctrl + PageDown`         | ✓ | ✓ | ✓
 

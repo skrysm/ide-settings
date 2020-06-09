@@ -1,8 +1,8 @@
-﻿# Visual Studio/ReSharper based Key Maps
+﻿# Visual Studio-/ReSharper-based Keymap
 
-This repository contains key maps for various IDEs that make them work like Visual Studio with ReSharper installed. (This way I don't need to remember different shortcuts with each IDE ;P )
+This directory contains a keymap for various IDEs that make them work like Visual Studio with ReSharper installed.
 
-## Key Bindings
+## Keybindings
 
 ### General
 

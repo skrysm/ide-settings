@@ -1,4 +1,4 @@
-﻿# IntelliJ Key Bindings
+﻿# IntelliJ Keymap
 
 ## Export
 

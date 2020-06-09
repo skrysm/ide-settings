@@ -1,4 +1,4 @@
-﻿# Visual Studio Code Key Bindings
+﻿# Visual Studio Code Keymap
 
 ## Export
 

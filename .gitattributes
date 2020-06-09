@@ -4,7 +4,7 @@
 # Make sure the VSCode key bindings file is checked out
 # with the current OS's line endings. This makes the file
 # directly "copyable" on Windows (CRLF) and Linux (LF).
-/VSCode/keybindings.json text
+**/VSCode/keybindings.json text
 
 # Store binary files in git-lfs
 **/*.exe filter=lfs diff=lfs merge=lfs -text

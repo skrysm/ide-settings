@@ -1,4 +1,4 @@
-﻿# Visual Studio Key Bindings
+﻿# Visual Studio Keymap
 
 ## Export
 

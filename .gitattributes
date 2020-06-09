@@ -1,5 +1,7 @@
 # Disable git's auto eol handling for all files.
 * -text
 
-# Special for VSCode key bindings
+# Make sure the VSCode key bindings file is checked out
+# with the current OS's line endings. This makes the file
+# directly "copyable" on Windows (CRLF) and Linux (LF).
 /VSCode/keybindings.json text

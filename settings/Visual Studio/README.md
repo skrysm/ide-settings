@@ -21,6 +21,8 @@ Recommended extension (besides ReSharper):
 Via `Tools` -> `Options...`:
 
 * Environment
+   * Accounts
+      * Uncheck "Synchronize settings across devices when signed into Visual Studio" (see below for explanation)
    * Import and Export Settings
       * Select appropriate folder for auto-save (file name: `CurrentSettings`)
    * Tabs and Windows
@@ -58,6 +60,21 @@ Via `Tools` -> `Customize...` (VS2019 or newer):
 * Extensions Menu
    * Uncheck "ReSharper" (this way, the ReSharper menu again appears in the VS menu bar directly)
 
+### Visual Studio Settings Synchronization
+
+Visual Studio's handling of its settings has always been bad (in my opinion).
+
+The main problem (as far as I understand it) is that Visual Studio does *not* save its settings when you hit the "Ok" button in the settings dialog but when you close Visual Studio. Also, it *always* saves *all* of its settings - even if no settings have been changed. And since settings are *not* synchronized between running Visual Studio instances, you can make settings changes in one instance but effectively lose them if you don't close *that* instance last.
+
+This effect is "amplified" when enabling Visual Studio's settings synchronization because you now not only need to consider the Visual Studio instances on your *current* machine - but **on all machines** you have Visual Studio running. So, the last instance on all of your machines "wins".
+
+In my trial of this feature I managed to **lose all of my settings** in just 5 minutes (because settings synchronization is enabled on *fresh* Visual Studio installations).
+
+So, my conclusion is:
+
+> Do **not** use Visual Studio settings synchronization!
+
+As a side note: The synchronized settings are not versioned (in Git or something similar, like for example in IntelliJ's settings sync functionality). So you can *not* easily recover from losing all your settings by simply going to an older revision/commit.
 
 ## Migrating Window Layout from older Visual Studio Version
 

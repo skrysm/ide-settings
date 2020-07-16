@@ -8,12 +8,12 @@ You can find it here: <https://gist.github.com> and click "See all of your gists
 
 ## First Time Download
 
-After installing the extension on a fresh Visual Studio Code installation, open the command palette (<kbd>Ctrl+Shift+P</kbd>) and execute: `Sync: Download Settings`
+After installing the extension on a fresh Visual Studio Code installation, open the command palette (**Ctrl+Shift+P**) and execute: `Sync: Download Settings`
 
 ## Cloning a Gist
 
 Normally, you don't need to clone the settings gist.
 
-However, if you want to make a local backup or manually examine the changes made to the gist, you can clone a gist by using this URL (hidden under the <kbd>Embed</kbd> button):
+However, if you want to make a local backup or manually examine the changes made to the gist, you can clone a gist by using this URL (hidden under the **Embed** button):
 
     https://gist.github.com/GIST_ID.git

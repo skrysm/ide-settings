@@ -2,10 +2,10 @@
 
 ## Export
 
-1.  Export key bindings
-1.  Re-import key bindings
-1.  Export key bindings again (VS reorders the XML when importing so we to do steps 2 and 3 to get a consistent file)
-1.  Use Visual Studio Code to format the file (via `Ctrl+Shift+P` and then `Format Document`).
+1. Export key bindings
+1. Re-import key bindings
+1. Export key bindings again (VS reorders the XML when importing so we to do steps 2 and 3 to get a consistent file)
+1. Use Visual Studio Code to format the file (via `Ctrl + Shift + P` and then `Format Document`).
 
 ## Exporting Key Bindings
 
@@ -39,9 +39,9 @@ The underlying keymap is: **Visual C# 2005**
 
 **Notes:**
 
-*   **For every key binding:** Always check the "Shortcut currently used by" drop down for *every* key binding and remove all other conflicting key bindings.
-*   As "Scope" we use "Global" everywhere - unless the keybinding must be restricted to a certain scope. This way we make sure that the keybindings don't have other meaning in other parts of Visual Studio.
-*   Keybindings with scope "Text Editor" are applied to every text editor (including XAML, XML, HTML...). So there's no need to define the same keybindings for different text editor types.
+* **For every key binding:** Always check the "Shortcut currently used by" drop down for *every* key binding and remove all other conflicting key bindings.
+* As "Scope" we use "Global" everywhere - unless the keybinding must be restricted to a certain scope. This way we make sure that the keybindings don't have other meaning in other parts of Visual Studio.
+* Keybindings with scope "Text Editor" are applied to every text editor (including XAML, XML, HTML...). So there's no need to define the same keybindings for different text editor types.
 
 ### General
 

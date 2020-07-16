@@ -10,10 +10,10 @@ Recommended extension (besides ReSharper):
 * [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
 * [Fix Mixed Tabs](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.FixMixedTabs)
 * Disable Mouse Wheel Zoom
-   * (For VS2017) [Disable Mouse Wheel Zoom](https://marketplace.visualstudio.com/items?itemName=NoahRichards.DisableMouseWheelZoom)
-   * (For VS2019) [Disable Mouse Wheel Zoom for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=reduckted.DisableMouseWheelZoom)
+  * (For VS2017) [Disable Mouse Wheel Zoom](https://marketplace.visualstudio.com/items?itemName=NoahRichards.DisableMouseWheelZoom)
+  * (For VS2019) [Disable Mouse Wheel Zoom for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=reduckted.DisableMouseWheelZoom)
 * [Disable Solution Explorer's Dynamic Nodes](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.DisableSolutionExplorersDynamicNodes)
-   * Afterwards in VS click: `View` -> `Disable Solution Explorer's Dynamic Nodes`
+  * Afterwards in VS click: `View` -> `Disable Solution Explorer's Dynamic Nodes`
 * [Double-Click Maximize](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.Double-ClickMaximize)
 
 ## Visual Studio Settings
@@ -21,44 +21,44 @@ Recommended extension (besides ReSharper):
 Via `Tools` -> `Options...`:
 
 * Environment
-   * Accounts
-      * Uncheck "Synchronize settings across devices when signed into Visual Studio" (see below for explanation)
-   * Import and Export Settings
-      * Select appropriate folder for auto-save (file name: `CurrentSettings`)
-   * Tabs and Windows
-      * Check "Show pinned tabs on a separate row"
-   * Trailing Whitespace (from extension)
-      * Remove `.md` and `.markdown` from "Ignore pattern"
+  * Accounts
+    * Uncheck "Synchronize settings across devices when signed into Visual Studio" (see below for explanation)
+  * Import and Export Settings
+    * Select appropriate folder for auto-save (file name: `CurrentSettings`)
+  * Tabs and Windows
+    * Check "Show pinned tabs on a separate row"
+  * Trailing Whitespace (from extension)
+    * Remove `.md` and `.markdown` from "Ignore pattern"
 * Projects and Solutions
-   * General
-      * Check "Show output window when build starts"
+  * General
+    * Check "Show output window when build starts"
 * Source Control
-   * Visual Studio Team Foundation Server
-      * Uncheck "Resolve associated work items on check-in"
+  * Visual Studio Team Foundation Server
+    * Uncheck "Resolve associated work items on check-in"
 * Text Editor
-   * General
-      * Uncheck "Drag and drop text editing"
-   * Advanced
-      * Check "Show the difference overview margin" (for when comparing files in VS)
-   * All Languages
-      * General
-         * Check "Line Numbers"
-         * Uncheck "Apply Cut or Copy to blank lines when there is no selection"
-      * CodeLense
-         * Uncheck "Enable CodeLense"
+  * General
+    * Uncheck "Drag and drop text editing"
+  * Advanced
+    * Check "Show the difference overview margin" (for when comparing files in VS)
+  * All Languages
+    * General
+      * Check "Line Numbers"
+      * Uncheck "Apply Cut or Copy to blank lines when there is no selection"
+    * CodeLense
+      * Uncheck "Enable CodeLense"
 * Debugging
-   * General
-      * Uncheck "Step over properties and operators"
+  * General
+    * Uncheck "Step over properties and operators"
 * NuGet Package Manager
-   * General
-      * "Default package management format": "PackageReference"
+  * General
+    * "Default package management format": "PackageReference"
 * XAML Designer
-   * Uncheck "Enable XAML Designer"
+  * Uncheck "Enable XAML Designer"
 
 Via `Tools` -> `Customize...` (VS2019 or newer):
 
 * Extensions Menu
-   * Uncheck "ReSharper" (this way, the ReSharper menu again appears in the VS menu bar directly)
+  * Uncheck "ReSharper" (this way, the ReSharper menu again appears in the VS menu bar directly)
 
 ### Visual Studio Settings Synchronization
 
@@ -88,7 +88,7 @@ Then edit this file and change `<ApplicationIdentity version="xx.x"/>` to the ne
 Then import the following settings in the *new* Visual Studio:
 
 * General Settings
-   * Window Layouts
+  * Window Layouts
 
 *Note:* The layout of ReSharper windows may not migrate this way.
 

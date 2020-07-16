@@ -21,7 +21,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 
 *Footnotes:*
 
-1.  Both in editor and project explorer sidebar.
+1. Both in editor and project explorer sidebar.
 
 ### Windows / Tabs
 

@@ -99,6 +99,7 @@ The underlying keymap is: **Visual C# 2005**
 | Extend Selection to Previous Hump         | `ReSharper_HumpPrevExtend`                | Global
 | Extend Selection to Next Hump             | `ReSharper_HumpNextExtend`                | Global
 | Block Selection                           | (default)
+| Expand/Unfold all Regions                 | `Edit.ExpandAllOutlining`                 | Text Editor
 
 **Note:** For "Toggle Comment" we still use the ReSharper functionality in VS2019, as the VS2019 functionality doesn't work, for example, in XAML.
 

@@ -64,6 +64,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Extend Selection to Next Hump             | `Alt + Shift + Right`     | ✓ | ✓ | ✓
 | Block Selection                           | `Alt` + Mouse             | × | ✓ | ✓
 | Block Selection                           | Middle Mouse Button       | ✓ | × | ✓
+| Expand/Unfold all Regions                 | `Ctrl + M, Ctrl + L`      | ✓ | ✓ | ✓
 
 ### Navigation
 

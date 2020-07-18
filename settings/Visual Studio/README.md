@@ -15,6 +15,7 @@ Recommended extension (besides ReSharper):
 * [Disable Solution Explorer's Dynamic Nodes](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.DisableSolutionExplorersDynamicNodes)
   * Afterwards in VS click: `View` -> `Disable Solution Explorer's Dynamic Nodes`
 * [Double-Click Maximize](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.Double-ClickMaximize)
+* [Output enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
 
 ## Visual Studio Settings
 
@@ -44,6 +45,8 @@ Via `Tools` -> `Options...`:
     * General
       * Check "Line Numbers"
       * Uncheck "Apply Cut or Copy to blank lines when there is no selection"
+    * Scroll Bars
+      * Check "Use bar mode for vertical scroll bar"
     * CodeLense
       * Uncheck "Enable CodeLense"
 * Debugging

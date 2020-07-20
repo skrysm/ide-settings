@@ -18,10 +18,12 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Open File in Explorer [1]         | `Alt + Shift + R`         | ✓ | ✓ | ✓
 | Locate Current File in Sidebar    | `Alt + Shift + L`         | ✓ | ✓ | ✓
 | Zoom In/Out                       | - (removed key bindings)  | ✓ | ✓ | ✓
+| Refresh TFS information [2]       | `Ctrl + Shift + F5`       | × | ✓ | ×
 
 *Footnotes:*
 
 1. Both in editor and project explorer sidebar.
+1. Only required for Visual Studio and TFS.
 
 ### Windows / Tabs
 

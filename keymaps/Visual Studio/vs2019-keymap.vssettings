@@ -687,6 +687,8 @@
                     <Shortcut Command="Edit.ExpandAllOutlining" Scope="Text Editor">Ctrl+M, Ctrl+L</Shortcut>
                     <RemoveShortcut Command="Edit.ExpandAllOutlining" Scope="Text Editor">Ctrl+M, Ctrl+X</RemoveShortcut>
                     <RemoveShortcut Command="Edit.ToggleAllOutlining" Scope="Text Editor">Ctrl+M, L</RemoveShortcut>
+
+                    <Shortcut Command="File.TfsRefreshStatus" Scope="Global">Ctrl+Shift+F5</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

@@ -58,6 +58,7 @@ The underlying keymap is: **Visual C# 2005**
 | Open File in Explorer             | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
 | Locate Current File in Sidebar    | (default)
 | Zoom In/Out                       | `View.ZoomIn`, `View.ZoomOut`                     | (Remove)
+| Refresh TFS information           | `File.TfsRefreshStatus`                           | Global
 
 ### Windows / Tabs
 

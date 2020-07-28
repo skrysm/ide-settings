@@ -9,13 +9,11 @@ Recommended extension (besides ReSharper):
 * [Solution Error Visualizer](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.SolutionErrorVisualizer)
 * [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
 * [Fix Mixed Tabs](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.FixMixedTabs)
-* Disable Mouse Wheel Zoom
-  * (For VS2017) [Disable Mouse Wheel Zoom](https://marketplace.visualstudio.com/items?itemName=NoahRichards.DisableMouseWheelZoom)
-  * (For VS2019) [Disable Mouse Wheel Zoom for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=reduckted.DisableMouseWheelZoom)
 * [Disable Solution Explorer's Dynamic Nodes](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.DisableSolutionExplorersDynamicNodes)
   * Afterwards in VS click: `View` -> `Disable Solution Explorer's Dynamic Nodes`
 * [Double-Click Maximize](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.Double-ClickMaximize)
 * [Output enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
+* [Tweaks](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.Tweaks)
 
 ## Visual Studio Settings
 
@@ -30,6 +28,11 @@ Via `Tools` -> `Options...`:
     * Check "Show pinned tabs on a separate row"
   * Trailing Whitespace (from extension)
     * Remove `.md` and `.markdown` from "Ignore pattern"
+  * Tweaks
+    * No debug on F10/F11: True
+    * Code Cleanup on Save: False
+    * Copy on Empty Selection: False
+    * Enable Collapsing Attributes: False
 * Projects and Solutions
   * General
     * Check "Show output window when build starts"

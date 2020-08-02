@@ -1,6 +1,6 @@
 # Settings for Visual Studio Code
 
-Settings are synchronized via this extension: <https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync>
+Settings are synchronized via this extension: **[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) by Shan Khan**
 
 This stores the settings in a GitHub Gist named `cloudSettings` (title: Visual Studio Code Settings Sync Gist).
 

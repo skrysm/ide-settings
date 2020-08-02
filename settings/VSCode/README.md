@@ -6,9 +6,13 @@ This stores the settings in a GitHub Gist named `cloudSettings` (title: Visual S
 
 You can find it here: <https://gist.github.com> and click "See all of your gists".
 
-## First Time Download
+## First Time Setup
 
-After installing the extension on a fresh Visual Studio Code installation, open the command palette (**Ctrl+Shift+P**) and execute: `Sync: Download Settings`
+After installing the extension, click on the **Login with GitHub** button.
+
+Afterwards, select the **Visual Studio Code Settings Sync Gist**. Then, click "Close Tab".
+
+Then, open the command palette (**Ctrl+Shift+P**) and execute: `Sync: Download Settings`
 
 ## Cloning a Gist
 

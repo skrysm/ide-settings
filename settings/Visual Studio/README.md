@@ -29,7 +29,6 @@ Via `Tools` -> `Options...`:
   * Trailing Whitespace (from extension)
     * Remove `.md` and `.markdown` from "Ignore pattern"
   * Tweaks
-    * No debug on F10/F11: True
     * Code Cleanup on Save: False
     * Copy on Empty Selection: False
     * Enable Collapsing Attributes: False

@@ -4,7 +4,7 @@ These are my personal settings for Visual Studio and ReSharper.
 
 ## Recommended Visual Studio Extensions
 
-Recommended extension (besides ReSharper):
+Recommended extension (besides [ReSharper](https://www.jetbrains.com/resharper/)):
 
 * [Solution Error Visualizer](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.SolutionErrorVisualizer)
 * [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)

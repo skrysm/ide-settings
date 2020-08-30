@@ -81,23 +81,13 @@ So, my conclusion is:
 
 As a side note: The synchronized settings are not versioned (in Git or something similar, like for example in IntelliJ's settings sync functionality). So you can *not* easily recover from losing all your settings by simply going to an older revision/commit.
 
-## Migrating Window Layout from older Visual Studio Version
+## Importing Window Layouts
 
-First export all settings in the *old* Visual Studio to a *temporary* file.
+The window layouts are stored in `window-layouts.vssettings`.
 
-Then edit this file and change `<ApplicationIdentity version="xx.x"/>` to the new Visual Studio version (see [here](https://stackoverflow.com/q/21996197/614177) for details):
+For this file, the following settings branch was exported: `General Settings` -> `Window Layouts`
 
-* VS2017: 15.0
-* VS2019: 16.0
-
-Then import the following settings in the *new* Visual Studio:
-
-* General Settings
-  * Window Layouts
-
-*Note:* The layout of ReSharper windows may not migrate this way.
-
-## Import Key Bindings
+## Importing Key Bindings
 
 For key bindings, see: <https://github.com/skrysmanski/ide-keymaps>
 

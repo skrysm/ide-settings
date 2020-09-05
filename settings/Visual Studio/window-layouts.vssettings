@@ -9,7 +9,7 @@
                 <WindowProfile xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:wm="clr-namespace:Microsoft.VisualStudio.Platform.WindowManagement;assembly=Microsoft.VisualStudio.Platform.WindowManagement" Name="Design"
                     xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.VisualStudio.Shell.ViewManager">
-                    <MainSite FloatingTop="13" FloatingLeft="22" FloatingHeight="883" FloatingWidth="1658" FloatingWindowState="Maximized">
+                    <MainSite FloatingTop="13" FloatingLeft="22" FloatingHeight="942.4" FloatingWidth="1548.8" FloatingWindowState="Maximized">
                         <AutoHideRoot IsVisible="True" DockedHeight="*" DockedWidth="*" DockRestriction="AlwaysFloating">
                             <AutoHideChannel Orientation="Vertical">
                                 <AutoHideGroup>
@@ -24,9 +24,6 @@
                                 </AutoHideGroup>
                             </AutoHideChannel>
                             <AutoHideChannel Dock="Right" Orientation="Vertical" IsVisible="True">
-                                <AutoHideGroup IsVisible="True">
-                                    <wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}" IsVisible="True" DockedHeight="384" DockedWidth="348.16" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="348.16"/>
-                                </AutoHideGroup>
                                 <AutoHideGroup>
                                     <wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}" DockedHeight="537.6" DockedWidth="307.2" AutoHideWidth="307.2" AutoHideHeight="537.6" FloatingHeight="537.6" FloatingWidth="307.2"/>
                                 </AutoHideGroup>
@@ -34,13 +31,19 @@
                                     <wm:ToolWindowView OnTopWhenLastInContext="False" ForceCreate="ForceCreate" Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" DockedHeight="384" DockedWidth="348.16" FloatingHeight="614.4" FloatingWidth="276.48"/>
                                 </AutoHideGroup>
                                 <AutoHideGroup IsVisible="True">
+                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="270" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{530d5016-b26c-5e94-8535-0f09a5150dba}" IsVisible="True" DockedHeight="1048" DockedWidth="425" FloatingTop="589" FloatingLeft="2065" FloatingHeight="1048" FloatingWidth="250"/>
+                                </AutoHideGroup>
+                                <AutoHideGroup IsVisible="True">
+                                    <wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}" IsVisible="True" DockedHeight="384" DockedWidth="348.16" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="348.16"/>
+                                </AutoHideGroup>
+                                <AutoHideGroup IsVisible="True">
                                     <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="271" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{3f72f409-5143-5ecd-bf1b-a9db81b00b65}" IsVisible="True" DockedWidth="1084.5" AutoHideWidth="558" FloatingTop="595" FloatingLeft="2005" FloatingWidth="1424"/>
                                 </AutoHideGroup>
                                 <AutoHideGroup IsVisible="True">
-                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="300" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{6bd997bb-d151-584f-9e60-18a921a96d60}" IsVisible="True" DockedHeight="450" DockedWidth="450" AutoHideWidth="598" FloatingTop="596" FloatingLeft="2013" FloatingHeight="450" FloatingWidth="450"/>
+                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="299" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{6bd997bb-d151-584f-9e60-18a921a96d60}" IsVisible="True" DockedHeight="450" DockedWidth="450" AutoHideWidth="598" FloatingTop="596" FloatingLeft="2013" FloatingHeight="450" FloatingWidth="450"/>
                                 </AutoHideGroup>
                                 <AutoHideGroup IsVisible="True">
-                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="301" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{ccee0150-361e-54e8-a5c7-4017a47a9a31}" IsVisible="True" DockedHeight="1047" DockedWidth="354" AutoHideWidth="613" FloatingTop="0" FloatingLeft="2080" FloatingHeight="1047" FloatingWidth="354"/>
+                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="300" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{ccee0150-361e-54e8-a5c7-4017a47a9a31}" IsVisible="True" DockedHeight="1047" DockedWidth="354" AutoHideWidth="613" FloatingTop="0" FloatingLeft="2080" FloatingHeight="1047" FloatingWidth="354"/>
                                 </AutoHideGroup>
                             </AutoHideChannel>
                             <AutoHideChannel Dock="Top"/>
@@ -172,7 +175,7 @@
                                         <ViewBookmark Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" DockedWidth="348.16"/>
                                     </DockGroup>
                                     <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="270" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{e8868fee-d2f2-5e1b-967f-50e1f9ad5d0e}" DockedHeight="450" DockedWidth="341" FloatingTop="612" FloatingLeft="2078" FloatingHeight="450" FloatingWidth="450"/>
-                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="270" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{530d5016-b26c-5e94-8535-0f09a5150dba}" IsVisible="True" DockedHeight="1048" DockedWidth="425" FloatingTop="589" FloatingLeft="2065" FloatingHeight="1048" FloatingWidth="250"/>
+                                    <ViewBookmark Name="ST:0:0:{530d5016-b26c-5e94-8535-0f09a5150dba}"/>
                                     <ViewBookmark Name="ST:0:0:{3f72f409-5143-5ecd-bf1b-a9db81b00b65}"/>
                                     <ViewBookmark Name="ST:0:0:{6bd997bb-d151-584f-9e60-18a921a96d60}"/>
                                     <ViewBookmark Name="ST:0:0:{ccee0150-361e-54e8-a5c7-4017a47a9a31}"/>
@@ -292,7 +295,7 @@
                         <ViewBookmark Name="ST:0:0:{89850d8d-b7a7-5ec7-942b-8ff63bbfce11}" ViewBookmarkType="Raft" DockedHeight="524" DockedWidth="250" FloatingHeight="1048" FloatingWidth="250"/>
                     </wm:WMFloatSite>
                     <wm:WMFloatSite Id="cba68423-ce0a-4ca4-ab5a-8e23cdcb1a04" FloatingTop="589" FloatingLeft="2065" FloatingHeight="1048" FloatingWidth="250">
-                        <ViewBookmark Name="ST:0:0:{530d5016-b26c-5e94-8535-0f09a5150dba}" ViewBookmarkType="Raft" DockedHeight="1048" DockedWidth="250" FloatingHeight="1048" FloatingWidth="250"/>
+                        <ViewBookmark Name="ST:0:0:{530d5016-b26c-5e94-8535-0f09a5150dba}" AccessOrder="1" ViewBookmarkType="Raft" DockedHeight="1048" DockedWidth="250" FloatingHeight="1048" FloatingWidth="250"/>
                     </wm:WMFloatSite>
                     <wm:WMFloatSite Id="955bfb3e-aaa2-45f1-92e0-94618eaecec3" FloatingTop="595" FloatingLeft="2005" FloatingWidth="1424">
                         <ViewBookmark Name="ST:0:0:{3f72f409-5143-5ecd-bf1b-a9db81b00b65}" AccessOrder="1" ViewBookmarkType="Raft" DockedWidth="1084.5" FloatingWidth="1424"/>
@@ -533,7 +536,7 @@
                 <WindowProfile xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:wm="clr-namespace:Microsoft.VisualStudio.Platform.WindowManagement;assembly=Microsoft.VisualStudio.Platform.WindowManagement" Name="NoToolWin"
                     xmlns="clr-namespace:Microsoft.VisualStudio.PlatformUI.Shell;assembly=Microsoft.VisualStudio.Shell.ViewManager">
-                    <MainSite FloatingTop="13" FloatingLeft="22" FloatingHeight="1032" FloatingWidth="1884" FloatingWindowState="Maximized">
+                    <MainSite FloatingTop="13" FloatingLeft="22" FloatingHeight="942.4" FloatingWidth="1548.8" FloatingWindowState="Maximized">
                         <AutoHideRoot IsVisible="True" DockedHeight="*" DockedWidth="*" DockRestriction="DocumentGroup, Document, OutsideView">
                             <AutoHideChannel Orientation="Vertical">
                                 <AutoHideGroup>

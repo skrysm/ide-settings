@@ -31,7 +31,7 @@
                                     <wm:ToolWindowView OnTopWhenLastInContext="False" ForceCreate="ForceCreate" Name="ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}" DockedHeight="384" DockedWidth="348.16" FloatingHeight="614.4" FloatingWidth="276.48"/>
                                 </AutoHideGroup>
                                 <AutoHideGroup IsVisible="True">
-                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="270" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{530d5016-b26c-5e94-8535-0f09a5150dba}" IsVisible="True" DockedHeight="1048" DockedWidth="425" FloatingTop="589" FloatingLeft="2065" FloatingHeight="1048" FloatingWidth="250"/>
+                                    <wm:ToolWindowView ForceCreate="ForceCreate" IconIndex="0" IconResourceID="270" IconResourcePackage="0c6e6407-13fc-4878-869a-c8b4016c57fe" Name="ST:0:0:{530d5016-b26c-5e94-8535-0f09a5150dba}" IsVisible="True" DockedHeight="1048" DockedWidth="425" AutoHideWidth="454" FloatingTop="589" FloatingLeft="2065" FloatingHeight="1048" FloatingWidth="250"/>
                                 </AutoHideGroup>
                                 <AutoHideGroup IsVisible="True">
                                     <wm:ToolWindowView ContextVisibilityEnabled="False" ForceCreate="ForceCreate" Name="ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}" IsVisible="True" DockedHeight="384" DockedWidth="348.16" FloatingTop="76.8" FloatingLeft="819.2" FloatingHeight="537.6" FloatingWidth="348.16"/>

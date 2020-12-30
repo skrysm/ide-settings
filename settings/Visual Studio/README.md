@@ -36,8 +36,12 @@ Via `Tools` -> `Options...`:
   * General
     * Check "Show output window when build starts"
 * Source Control
-  * Visual Studio Team Foundation Server
-    * Uncheck "Resolve associated work items on check-in"
+  * If only *Git* is used and if an external Git client is used:
+    * Plug-in Selection
+      * Set "Current source control plug-in" to "None" (apparently you gain some performance by doing this)
+  * If *TFS* is used:
+    * Visual Studio Team Foundation Server
+      * Uncheck "Resolve associated work items on check-in"
 * Text Editor
   * General
     * Uncheck "Drag and drop text editing"

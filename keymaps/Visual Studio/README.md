@@ -62,13 +62,14 @@ The underlying keymap is: **Visual C# 2005**
 
 ### Windows / Tabs
 
-| Function                  | Key Binding Name              | Scope
-| ------------------------- | ----------------------------- | -----
-| Close Current Tab         | `Window.CloseDocumentWindow`  | Global
-| Close All Tabs            | `Window.CloseAllDocuments`    | Global
-| Close Other Tabs          | `File.CloseAllButThis`        | Global
-| Go to Previous Editor Tab | `Window.PreviousTab`          | Global
-| Go to Next Editor Tab     | `Window.NextTab`              | Global
+| Function                              | Key Binding Name                          | Scope
+| ------------------------------------- | ----------------------------------------- | -----
+| Close Current Tab                     | `Window.CloseDocumentWindow`              | Global
+| Close All Tabs                        | `Window.CloseAllDocuments`                | Global
+| Close Other Tabs                      | `File.CloseAllButThis`                    | Global
+| Go to Previous Editor Tab             | `Window.PreviousTab`                      | Global
+| Go to Next Editor Tab                 | `Window.NextTab`                          | Global
+| Show/Toggle Outline (File Structure)  | `ReSharper.ReSharper_ShowCodeStructure`   | Global
 
 ### Search / Replace
 

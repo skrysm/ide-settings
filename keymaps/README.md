@@ -27,13 +27,14 @@ This directory contains a keymap for various IDEs that make them work like Visua
 
 ### Windows / Tabs
 
-| Function                  | Key Binding               | VSCode | VS | IntelliJ
-| ------------------------- | ------------------------- | ------ | -- | --------
-| Close Current Tab         | `Ctrl + W`                | ✓ | ✓ | ✓
-| Close All Tabs            | `Ctrl + Shift + W`        | ✓ | ✓ | ✓
-| Close Other Tabs          | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
-| Go to Previous Editor Tab | `Ctrl + PageUp`           | ✓ | ✓ | ✓
-| Go to Next Editor Tab     | `Ctrl + PageDown`         | ✓ | ✓ | ✓
+| Function                              | Key Binding               | VSCode | VS | IntelliJ
+| ------------------------------------- | ------------------------- | ------ | -- | --------
+| Close Current Tab                     | `Ctrl + W`                | ✓ | ✓ | ✓
+| Close All Tabs                        | `Ctrl + Shift + W`        | ✓ | ✓ | ✓
+| Close Other Tabs                      | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
+| Go to Previous Editor Tab             | `Ctrl + PageUp`           | ✓ | ✓ | ✓
+| Go to Next Editor Tab                 | `Ctrl + PageDown`         | ✓ | ✓ | ✓
+| Show/Toggle Outline (File Structure)  | `Shift+Alt+O`             | × | ✓ |
 
 ### Search / Replace
 

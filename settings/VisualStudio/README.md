@@ -82,11 +82,9 @@ So, my conclusion is:
 
 As a side note: The synchronized settings are not versioned (in Git or something similar, like for example in IntelliJ's settings sync functionality). So you can *not* easily recover from losing all your settings by simply going to an older revision/commit.
 
-## Importing Window Layouts
+## Recreating Window Layouts
 
-The window layouts are stored in `window-layouts.vssettings`.
-
-For this file, the following settings branch was exported: `General Settings` -> `Window Layouts`
+The window layouts can be found in the two `window-layout-...png` files (for reference). Simply recreate them in Visual Studio.
 
 ## Importing Key Bindings
 

@@ -88,7 +88,7 @@ The window layouts can be found in the two `window-layout-...png` files (for ref
 
 ## Importing Key Bindings
 
-For key bindings, see: <https://github.com/skrysmanski/ide-keymaps>
+For key bindings, see [keymaps](../../keymaps/VisualStudio/README.md).
 
 ## ReSharper Settings
 

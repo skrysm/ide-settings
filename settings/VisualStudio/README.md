@@ -85,6 +85,10 @@ As a side note: The synchronized settings are not versioned (in Git or something
 
 The window layouts can be found in the two `window-layout-...png` files (for reference). Simply recreate them in Visual Studio.
 
+![regular layout](window-layout-regular.png)
+
+![debug layout](window-layout-debug.png)
+
 ## Importing Key Bindings
 
 For key bindings, see [keymaps](../../keymaps/VisualStudio/README.md).

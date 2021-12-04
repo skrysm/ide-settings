@@ -78,7 +78,69 @@
                     <Shortcut Command="View.ViewDesigner" Scope="Global">Shift+F7</Shortcut>
                 </DefaultShortcuts>
                 <ShortcutsScheme>Visual C# 2005</ShortcutsScheme>
-                <UserShortcuts/>
+                <UserShortcuts>
+                    <RemoveShortcut Command="Image.ZoomOut" Scope="VC Image Editor">Ctrl+Shift+,</RemoveShortcut>
+                    <RemoveShortcut Command="MoveLeftEdgetotheleft" Scope="XAML Designer">Ctrl+Shift+,</RemoveShortcut>
+                    <RemoveShortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Q</RemoveShortcut>
+                    <RemoveShortcut Command="Image.OutlinedRectangleTool" Scope="VC Image Editor">Shift+Alt+R</RemoveShortcut>
+                    <RemoveShortcut Command="SQL.QueryResultsRefresh" Scope="Query Results">Shift+Alt+R</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.JoinLines" Scope="Text Editor">Shift+Alt+L, Shift+Alt+J</RemoveShortcut>
+                    <RemoveShortcut Command="Edit.SortLines" Scope="Text Editor">Shift+Alt+L, Shift+Alt+S</RemoveShortcut>
+                    <RemoveShortcut Command="Team.NewLinkedWorkItem" Scope="Work Item Results View">Shift+Alt+L</RemoveShortcut>
+                    <RemoveShortcut Command="Team.NewLinkedWorkItem" Scope="Work Item Editor">Shift+Alt+L</RemoveShortcut>
+                    <RemoveShortcut Command="Team.NewLinkedWorkItem" Scope="Work Item Query View">Shift+Alt+L</RemoveShortcut>
+                    <RemoveShortcut Command="TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI" Scope="Team Explorer">Shift+Alt+L</RemoveShortcut>
+                    <RemoveShortcut Command="View.ZoomIn" Scope="Global">Ctrl+Shift+.</RemoveShortcut>
+                    <RemoveShortcut Command="Image.FilledRoundedRectangleTool" Scope="VC Image Editor">Ctrl+Shift+Alt+W</RemoveShortcut>
+                    <RemoveShortcut Command="Format.TestDialog" Scope="VC Dialog Editor">Ctrl+T</RemoveShortcut>
+                    <RemoveShortcut Command="Image.TextTool" Scope="VC Image Editor">Ctrl+T</RemoveShortcut>
+                    <RemoveShortcut Command="QueryDesigner.CancelRetrievingData" Scope="View Designer">Ctrl+T</RemoveShortcut>
+                    <RemoveShortcut Command="QueryDesigner.CancelRetrievingData" Scope="Query Designer">Ctrl+T</RemoveShortcut>
+
+                    <Shortcut Command="Tools.Options" Scope="Global">Ctrl+,</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ShowSettingsLayersDialog" Scope="Global">Ctrl+Shift+,</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+N</Shortcut>
+                    <Shortcut Command="ReSharper_GenerateNewFolder" Scope="Solution Explorer">Ctrl+Shift+N</Shortcut>
+                    <Shortcut Command="Window.ActivateQuickLaunch" Scope="Global">Ctrl+Shift+A</Shortcut>
+                    <Shortcut Command="File.OpenContainingFolder" Scope="Global">Shift+Alt+R</Shortcut>
+                    <Shortcut Command="ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer" Scope="Solution Explorer">Shift+Alt+R</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer" Scope="Global">Shift+Alt+L</Shortcut>
+                    <Shortcut Command="Window.CloseDocumentWindow" Scope="Global">Ctrl+W</Shortcut>
+                    <Shortcut Command="Window.CloseAllDocuments" Scope="Global">Ctrl+Shift+W</Shortcut>
+                    <Shortcut Command="File.CloseAllButThis" Scope="Global">Ctrl+Shift+Alt+W</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ShowCodeStructure" Scope="Global">Shift+Alt+O</Shortcut>
+                    <Shortcut Command="ReSharper_AltEnter" Scope="Text Editor">Alt+Enter</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ParameterInfoShow" Scope="Text Editor">Ctrl+P</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="Text Editor">Ctrl+Shift+F1</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_RefactorThis" Scope="Global">Ctrl+Shift+R</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_Rename" Scope="Global">Ctrl+R, Ctrl+R</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_Rename" Scope="Global">Ctrl+R, R</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_SurroundWith" Scope="Text Editor">Ctrl+E, Ctrl+U</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_SurroundWith" Scope="Text Editor">Ctrl+E, U</Shortcut>
+                    <Shortcut Command="ReSharper_GenerateOverrides" Scope="Text Editor">Ctrl+Shift+O</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_LineComment" Scope="Text Editor">Ctrl+Shift+7</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="Text Editor">Ctrl+Shift+Alt+7</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_CleanupCode" Scope="Text Editor">Ctrl+E, C</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_CleanupCode" Scope="Text Editor">Ctrl+E, Ctrl+C</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_SilentCleanupCode" Scope="Text Editor">Ctrl+E, F</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_SilentCleanupCode" Scope="Text Editor">Ctrl+E, Ctrl+F</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="Text Editor">Shift+Alt+Up Arrow</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Shift+Alt+Down Arrow</Shortcut>
+                    <Shortcut Command="ReSharper_HumpPrev" Scope="Text Editor">Alt+Left Arrow</Shortcut>
+                    <Shortcut Command="ReSharper_HumpNext" Scope="Text Editor">Alt+Right Arrow</Shortcut>
+                    <Shortcut Command="ReSharper_HumpPrevExtend" Scope="Text Editor">Shift+Alt+Left Arrow</Shortcut>
+                    <Shortcut Command="ReSharper_HumpNextExtend" Scope="Text Editor">Shift+Alt+Right Arrow</Shortcut>
+                    <Shortcut Command="Edit.ExpandAllOutlining" Scope="Text Editor">Ctrl+M, Ctrl+L</Shortcut>
+                    <Shortcut Command="Edit.ExpandAllOutlining" Scope="Text Editor">Ctrl+M, L</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoType" Scope="Global">Ctrl+T</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoFile" Scope="Global">Ctrl+Shift+T</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_FindUsages" Scope="Text Editor">Shift+F12</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Text Editor">Alt+ß</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="Text Editor">Alt+End</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Text Editor">Alt+Home</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="Text Editor">Alt+PgUp</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="Text Editor">Alt+PgDn</Shortcut>
+                </UserShortcuts>
             </KeyboardShortcuts>
         </Category>
     </Category>

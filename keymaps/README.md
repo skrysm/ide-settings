@@ -34,7 +34,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Close Other Tabs                      | `Ctrl + Shift + Alt + W`  | ✓ | ✓ | ✓
 | Go to Previous Editor Tab             | `Ctrl + PageUp`           | ✓ | ✓ | ✓
 | Go to Next Editor Tab                 | `Ctrl + PageDown`         | ✓ | ✓ | ✓
-| Show/Toggle Outline (File Structure)  | `Shift+Alt+O`             | × | ✓ |
+| Show/Toggle Outline (File Structure)  | `Shift + Alt + O`         | × | ✓ |
 
 ### Search / Replace
 

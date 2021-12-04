@@ -14,6 +14,7 @@ Recommended extension (besides [ReSharper](https://www.jetbrains.com/resharper/)
 * [Double-Click Maximize](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.Double-ClickMaximize)
 * [Output enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
 * [Tweaks](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.Tweaks)
+* [FileICons](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons)
 
 ## Visual Studio Settings
 

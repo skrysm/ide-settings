@@ -140,6 +140,8 @@
                     <Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Text Editor">Alt+Home</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="Text Editor">Alt+PgUp</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="Text Editor">Alt+PgDn</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoText" Scope="Global">Ctrl+Shift+F</Shortcut>
+                    <Shortcut Command="Edit.FindinFiles" Scope="Global">Ctrl+Shift+Alt+F</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

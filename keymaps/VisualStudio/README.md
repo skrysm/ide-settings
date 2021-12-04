@@ -79,7 +79,9 @@ The following tables list the key binding names as they appear in Visual Studio.
 | Close Other Tabs                      | `File.CloseAllButThis`                    | Global
 | Go to Previous Editor Tab             | `Window.PreviousTab`                      | Global
 | Go to Next Editor Tab                 | `Window.NextTab`                          | Global
+| Focus Project Sidebar                 | `View.SolutionExplorer`                   | Global
 | Show/Toggle Outline (File Structure)  | `ReSharper.ReSharper_ShowCodeStructure`   | Global
+| Jump back to editor (from sidebar)    | (default)
 
 ### Search / Replace
 

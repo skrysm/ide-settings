@@ -25,6 +25,7 @@ Via `Tools` -> `Options...`:
   * Import and Export Settings
     * Select appropriate folder for auto-save (file name: `CurrentSettings`)
   * Tabs and Windows
+    * Check "Colorize document tabs by project" (VS2022+)
     * Check "Show pinned tabs on a separate row"
   * Trailing Whitespace (from extension)
     * Remove `.md` and `.markdown` from "Ignore pattern"

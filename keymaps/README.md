@@ -35,6 +35,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Go to Previous Editor Tab             | `Ctrl + PageUp`           | ✓ | ✓ | ✓
 | Go to Next Editor Tab                 | `Ctrl + PageDown`         | ✓ | ✓ | ✓
 | Show/Toggle Outline (File Structure)  | `Shift + Alt + O`         | × | ✓ |
+| Jump back to editor (from sidebar)    | `ESC`                     | × | ✓ | ✓
 
 ### Search / Replace
 

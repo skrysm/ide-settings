@@ -142,6 +142,7 @@
                     <Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="Text Editor">Alt+PgDn</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_GotoText" Scope="Global">Ctrl+Shift+F</Shortcut>
                     <Shortcut Command="Edit.FindinFiles" Scope="Global">Ctrl+Shift+Alt+F</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_CompleteStatement" Scope="Text Editor">Ctrl+Shift+Enter</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

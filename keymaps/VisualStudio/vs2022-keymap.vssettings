@@ -144,6 +144,7 @@
                     <Shortcut Command="Edit.FindinFiles" Scope="Global">Ctrl+Shift+Alt+F</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_CompleteStatement" Scope="Text Editor">Ctrl+Shift+Enter</Shortcut>
                     <Shortcut Command="View.SolutionExplorer" Scope="Global">Alt+1</Shortcut>
+                    <Shortcut Command="File.TfsRefreshStatus" Scope="Team Explorer">Ctrl+Shift+F5</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

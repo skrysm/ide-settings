@@ -68,7 +68,7 @@ The following tables list the key binding names as they appear in Visual Studio.
 | Open File in Explorer             | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
 | Locate Current File in Sidebar    | `ReSharper_LocateItemInSolutionOrAssemblyExplorer`                | Global
 | Zoom In/Out                       | `View.ZoomIn`, `View.ZoomOut`                                     | (Remove)
-| Refresh TFS information           | `File.TfsRefreshStatus`                                           | Global
+| Refresh TFS information           | `File.TfsRefreshStatus`                                           | Team Explorer
 
 ### Windows / Tabs
 

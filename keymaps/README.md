@@ -51,6 +51,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Function                                  | Key Binding                           | VSCode | VS | IntelliJ
 | ----------------------------------------- | ------------------------------------- | ------ | -- | --------
 | Quick Fix                                 | `Alt + Enter`                         | ✓      | ✓  | ✓
+| Generate Code                             | `Alt + Insert`                        |        | ✓  |
 | Complete Statement                        | `Ctrl + Shift + Enter`                |        | ✓  | ✓
 | Show Parameter Info                       | `Ctrl + P`                            | ×      | ✓  | ✓
 | Quick Documentation                       | `Ctrl + Shift + F1`                   | ×      | ✓  | ✓

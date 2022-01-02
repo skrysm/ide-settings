@@ -96,6 +96,7 @@ The following tables list the key binding names as they appear in Visual Studio.
 | Function                                  | Key Binding Name                          | Scope
 | ----------------------------------------- | ----------------------------------------- | -----
 | Quick Fix                                 | `ReSharper_AltEnter`                      | Text Editor
+| Generate Code                             | `ReSharper.ReSharper_Generate`            | Text Editor
 | Complete Statement                        | `ReSharper.ReSharper_CompleteStatement`   | Text Editor
 | Show Parameter Info                       | `ReSharper.ReSharper_ParameterInfoShow`   | Text Editor
 | Quick Documentation                       | `ReSharper.ReSharper_QuickDoc`            | Text Editor

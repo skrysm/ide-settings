@@ -14,7 +14,11 @@ Recommended extension (besides [ReSharper](https://www.jetbrains.com/resharper/)
 * [Double-Click Maximize](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.Double-ClickMaximize)
 * [Output enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
 * [Tweaks](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.Tweaks)
-* [FileICons](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons)
+* [FileIcons](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileIcons)
+
+Uninstall/disable the following extensions:
+
+* Visual Studio IntelliCode (VS2022): This sometimes conflicts with ReSharper's auto completion (inserting code you don't want to be inserted).
 
 ## Visual Studio Settings
 

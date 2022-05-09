@@ -2,9 +2,9 @@
 
 Settings are synchronized via this extension: **[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) by Shan Khan**
 
-This stores the settings in a GitHub Gist named `cloudSettings` (title: Visual Studio Code Settings Sync Gist).
+This stores the settings in a GitHub Gist named `History...entries.json` (title: Visual Studio Code Settings Sync Gist).
 
-You can find it here: <https://gist.github.com> and click "See all of your gists".
+To see all your Gists, go to <https://gist.github.com>, click your profile picture and then click "Your gists".
 
 ## First Time Setup
 

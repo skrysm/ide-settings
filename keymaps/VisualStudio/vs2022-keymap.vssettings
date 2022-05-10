@@ -151,6 +151,12 @@
                     <Shortcut Command="View.SolutionExplorer" Scope="Global">Alt+1</Shortcut>
                     <Shortcut Command="File.TfsRefreshStatus" Scope="Team Explorer">Ctrl+Shift+F5</Shortcut>
                     <Shortcut Command="ReSharper.ReSharper_Generate" Scope="Text Editor">Alt+Ins</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoNextErrorInSolution" Scope="Global">Shift+Alt+PgDn</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_GotoPrevErrorInSolution" Scope="Global">Shift+Alt+PgUp</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_TypeHierarchyBrowse" Scope="Text Editor">Ctrl+E, Ctrl+H</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_TypeHierarchyBrowse" Scope="Text Editor">Ctrl+E, H</Shortcut>
+                    <Shortcut Command="ReSharper.ReSharper_InspectThis" Scope="Global">Ctrl+Shift+Alt+A</Shortcut>
+                    <Shortcut Command="Edit.ToggleWordWrap" Scope="Text Editor">Alt+Z</Shortcut>
                 </UserShortcuts>
             </KeyboardShortcuts>
         </Category>

@@ -72,23 +72,28 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Block Selection                           | `Alt` + Mouse                         | ×      | ✓  | ✓
 | Block Selection                           | Middle Mouse Button                   | ✓      | ×  | ✓
 | Expand/Unfold all Regions                 | `Ctrl + M, L` (`Ctrl + M, Ctrl + L`)  | ✓      | ✓  | ✓
+| Word Wrap                                 | `Alt + Z`                             | ✓      | ✓  |
 
 ### Navigation
 
-| Function                                  | Key Binding           | VSCode | VS | IntelliJ
-| ----------------------------------------- | --------------------- | ------ | -- | --------
-| Search Everything/Search for Symbol       | `Ctrl + T`            | ✓      | ✓  | ✓
-| Navigate to File                          | `Ctrl + Shift + T`    | ✓      | ✓  | ✓
-| Go To Implementation                      | `F12`                 | ✓      | ✓  | ✓
-| Find Usages                               | `Shift + F12`         | ✓      | ✓  | ✓
-| Go to Member                              | `Alt + ß`             | ×      | ✓  | ✓
-| Go to Parent Implementation (Base)        | `Alt + Home`          | ×      | ✓  | ✓
-| Go to Child Implementation (Inheritors)   | `Alt + End`           | ×      | ✓  | ✓
-| Go to Previous Annotation/Issue           | `Alt + PgUp`          | ✓      | ✓  | ✓
-| Go to Next Annotation/Issue               | `Alt + PgDown`        | ✓      | ✓  | ✓
-| Navigate Back                             | `Ctrl + -`            | ✓      | ✓  | ✓
-| Navigate Forward                          | `Ctrl + Shift + -`    | ✓      | ✓  | ✓
-| Go to Line                                | `Ctrl + G`            | ✓      | ✓  | ✓
+| Function                                  | Key Binding               | VSCode | VS | IntelliJ
+| ----------------------------------------- | ------------------------- | ------ | -- | --------
+| Search Everything/Search for Symbol       | `Ctrl + T`                | ✓      | ✓  | ✓
+| Navigate to File                          | `Ctrl + Shift + T`        | ✓      | ✓  | ✓
+| Go To Implementation                      | `F12`                     | ✓      | ✓  | ✓
+| Find Usages                               | `Shift + F12`             | ✓      | ✓  | ✓
+| Go to Member                              | `Alt + ß`                 | ×      | ✓  | ✓
+| Go to Parent Implementation (Base)        | `Alt + Home`              | ×      | ✓  | ✓
+| Go to Child Implementation (Inheritors)   | `Alt + End`               | ×      | ✓  | ✓
+| Go to Previous Annotation/Issue           | `Alt + PgUp`              | ✓      | ✓  | ✓
+| Go to Next Annotation/Issue               | `Alt + PgDown`            | ✓      | ✓  | ✓
+| Go to Previous Error/Warning in Solution  | `Alt + Shift + PgUp`      |        | ✓  |
+| Go to Next Error/Warning in Solution      | `Alt + Shift + PgDn`      |        | ✓  |
+| Navigate Back                             | `Ctrl + -`                | ✓      | ✓  | ✓
+| Navigate Forward                          | `Ctrl + Shift + -`        | ✓      | ✓  | ✓
+| Go to Line                                | `Ctrl + G`                | ✓      | ✓  | ✓
+| Show Type Hierarchy                       | `Ctrl + E, H`             |        | ✓  |
+| Inspect This                              | `Ctrl + Alt + Shift + A`  |        | ✓  |
 
 ### Running / Debugging
 

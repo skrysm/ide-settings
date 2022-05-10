@@ -116,25 +116,30 @@ The following tables list the key binding names as they appear in Visual Studio.
 | Extend Selection to Next Hump             | `ReSharper_HumpNextExtend`                | Text Editor
 | Block Selection                           | -
 | Expand/Unfold all Regions                 | `Edit.ExpandAllOutlining`                 | Text Editor
+| Word Wrap                                 | `Edit.ToggleWordWrap`                     | Text Editor
 
 **Note:** For "Toggle Comment" we still use the ReSharper functionality in VS2019, as the VS2019 functionality doesn't work, for example, in XAML.
 
 ### Navigation
 
-| Function                                  | Key Binding Name                          | Scope
-| ----------------------------------------- | ----------------------------------------- | -----
-| Search Everything/Search for Symbol       | `ReSharper.ReSharper_GotoType`            | Global
-| Navigate to File                          | `ReSharper.ReSharper_GotoFile`            | Global
-| Go to Implementation                      | `Edit.GoToDefinition`                     | Text Editor
-| Find Usages                               | `ReSharper.ReSharper_FindUsages`          | Text Editor
-| Go to Member                              | `ReSharper.ReSharper_GotoFileMember`      | Text Editor
-| Go to Parent Implementation (Base)        | `ReSharper.ReSharper_GotoBase`            | Text Editor
-| Go to Child Implementation (Inheritors)   | `ReSharper.ReSharper_GotoInheritors`      | Text Editor
-| Go to Previous Annotation/Issue           | `ReSharper.ReSharper_GotoPrevHighlight`   | Text Editor
-| Go to Next Annotation/Issue               | `ReSharper.ReSharper_GotoNextHighlight`   | Text Editor
-| Navigate Back                             | `View.NavigateBackward`                   | Global
-| Navigate Forward                          | `View.NavigateForward`                    | Global
-| Go to Line                                | `Edit.GoTo`                               | Global
+| Function                                  | Key Binding Name                              | Scope
+| ----------------------------------------- | --------------------------------------------- | -----
+| Search Everything/Search for Symbol       | `ReSharper.ReSharper_GotoType`                | Global
+| Navigate to File                          | `ReSharper.ReSharper_GotoFile`                | Global
+| Go to Implementation                      | `Edit.GoToDefinition`                         | Text Editor
+| Find Usages                               | `ReSharper.ReSharper_FindUsages`              | Text Editor
+| Go to Member                              | `ReSharper.ReSharper_GotoFileMember`          | Text Editor
+| Go to Parent Implementation (Base)        | `ReSharper.ReSharper_GotoBase`                | Text Editor
+| Go to Child Implementation (Inheritors)   | `ReSharper.ReSharper_GotoInheritors`          | Text Editor
+| Go to Previous Annotation/Issue           | `ReSharper.ReSharper_GotoPrevHighlight`       | Text Editor
+| Go to Next Annotation/Issue               | `ReSharper.ReSharper_GotoNextHighlight`       | Text Editor
+| Go to Previous Error/Warning in Solution  | `ReSharper.ReSharper_GotoPrevErrorInSolution` | Global
+| Go to Next Error/Warning in Solution      | `ReSharper.ReSharper_GotoNextErrorInSolution` | Global
+| Navigate Back                             | `View.NavigateBackward`                       | Global
+| Navigate Forward                          | `View.NavigateForward`                        | Global
+| Go to Line                                | `Edit.GoTo`                                   | Global
+| Show Type Hierarchy                       | `ReSharper.ReSharper_TypeHierarchyBrowse`     | Text Editor
+| Inspect This                              | `ReSharper.ReSharper_InspectThis`             | Global
 
 ### Running / Debugging
 

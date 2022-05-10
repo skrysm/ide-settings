@@ -48,31 +48,31 @@ This directory contains a keymap for various IDEs that make them work like Visua
 
 ### Editing
 
-| Function                                  | Key Binding                           | VSCode | VS | IntelliJ
-| ----------------------------------------- | ------------------------------------- | ------ | -- | --------
-| Quick Fix                                 | `Alt + Enter`                         | ✓      | ✓  | ✓
-| Generate Code                             | `Alt + Insert`                        |        | ✓  |
-| Complete Statement                        | `Ctrl + Shift + Enter`                |        | ✓  | ✓
-| Show Parameter Info                       | `Ctrl + P`                            | ×      | ✓  | ✓
-| Quick Documentation                       | `Ctrl + Shift + F1`                   | ×      | ✓  | ✓
-| Refactor this                             | `Ctrl + Shift + R`                    | ×      | ✓  | ✓
-| Rename (Refactoring)                      | `Ctrl + R, Ctrl + R` (`Ctrl+R, R`)    | ✓      | ✓  | ✓
-| Surround with                             | `Ctrl + E, U` (`Ctrl + E, Ctrl + U`)  | ×      | ✓  | ✓
-| Override Methods                          | `Ctrl + Shift + O`                    | ×      | ✓  | ✓
-| Toggle Line Comment                       | `Ctrl + Shift + 7`                    | ✓      | ✓  | ✓
-| Toggle Block Comment                      | `Ctrl + Shift + Alt + 7`              | ✓      | ✓  | ✓
-| Cleanup File (with Profile Selection)     | `Ctrl + E, C` (`Ctrl + E, Ctrl + C`)  | ×      | ✓  | ✓
-| Cleanup File (with Default Profile)       | `Ctrl + E, F` (`Ctrl + E, Ctrl + F`)  | ×      | ✓  | ✓
-| Expand Selection                          | `Alt + Shift + Up`                    | ✓      | ✓  | ✓
-| Shrink Selection                          | `Alt + Shift + Down`                  | ✓      | ✓  | ✓
-| Go to Previous Hump                       | `Alt + Left`                          | ✓      | ✓  | ✓
-| Go to Next Hump                           | `Alt + Right`                         | ✓      | ✓  | ✓
-| Extend Selection to Previous Hump         | `Alt + Shift + Left`                  | ✓      | ✓  | ✓
-| Extend Selection to Next Hump             | `Alt + Shift + Right`                 | ✓      | ✓  | ✓
-| Block Selection                           | `Alt` + Mouse                         | ×      | ✓  | ✓
-| Block Selection                           | Middle Mouse Button                   | ✓      | ×  | ✓
-| Expand/Unfold all Regions                 | `Ctrl + M, L` (`Ctrl + M, Ctrl + L`)  | ✓      | ✓  | ✓
-| Word Wrap                                 | `Alt + Z`                             | ✓      | ✓  |
+| Function                                  | Key Binding               | VSCode | VS | IntelliJ
+| ----------------------------------------- | ------------------------- | ------ | -- | --------
+| Quick Fix                                 | `Alt + Enter`             | ✓      | ✓  | ✓
+| Generate Code                             | `Alt + Insert`            |        | ✓  |
+| Complete Statement                        | `Ctrl + Shift + Enter`    |        | ✓  | ✓
+| Show Parameter Info                       | `Ctrl + P`                | ×      | ✓  | ✓
+| Quick Documentation                       | `Ctrl + Shift + F1`       | ×      | ✓  | ✓
+| Refactor this                             | `Ctrl + Shift + R`        | ×      | ✓  | ✓
+| Rename (Refactoring)                      | `Ctrl + R, R`             | ✓      | ✓  | ✓
+| Surround with                             | `Ctrl + E, U`             | ×      | ✓  | ✓
+| Override Methods                          | `Ctrl + Shift + O`        | ×      | ✓  | ✓
+| Toggle Line Comment                       | `Ctrl + Shift + 7`        | ✓      | ✓  | ✓
+| Toggle Block Comment                      | `Ctrl + Shift + Alt + 7`  | ✓      | ✓  | ✓
+| Cleanup File (with Profile Selection)     | `Ctrl + E, C`             | ×      | ✓  | ✓
+| Cleanup File (with Default Profile)       | `Ctrl + E, F`             | ×      | ✓  | ✓
+| Expand Selection                          | `Alt + Shift + Up`        | ✓      | ✓  | ✓
+| Shrink Selection                          | `Alt + Shift + Down`      | ✓      | ✓  | ✓
+| Go to Previous Hump                       | `Alt + Left`              | ✓      | ✓  | ✓
+| Go to Next Hump                           | `Alt + Right`             | ✓      | ✓  | ✓
+| Extend Selection to Previous Hump         | `Alt + Shift + Left`      | ✓      | ✓  | ✓
+| Extend Selection to Next Hump             | `Alt + Shift + Right`     | ✓      | ✓  | ✓
+| Block Selection                           | `Alt` + Mouse             | ×      | ✓  | ✓
+| Block Selection                           | Middle Mouse Button       | ✓      | ×  | ✓
+| Expand/Unfold all Regions                 | `Ctrl + M, L`             | ✓      | ✓  | ✓
+| Word Wrap                                 | `Alt + Z`                 | ✓      | ✓  |
 
 ### Navigation
 

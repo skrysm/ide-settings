@@ -36,7 +36,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Go to Next Editor Tab                 | `Ctrl + PageDn`           | ✓      | ✓  | ✓
 | Show/Toggle Outline (File Structure)  | `Shift + Alt + O`         | ×      | ✓  |
 | Focus Project Sidebar                 | `Alt + 1`                 | ✓      | ✓  | ✓
-| Jump back to editor (from sidebar)    | `ESC`                     | ×      | ✓  | ✓
+| Jump back to editor (from sidebar)    | `ESC` / `Alt + 2`         | ✓      | ✓  | ✓
 
 ### Search / Replace
 
@@ -51,8 +51,8 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Function                                  | Key Binding               | VSCode | VS | IntelliJ
 | ----------------------------------------- | ------------------------- | ------ | -- | --------
 | Quick Fix                                 | `Alt + Enter`             | ✓      | ✓  | ✓
-| Generate Code                             | `Alt + Insert`            |        | ✓  |
-| Complete Statement                        | `Ctrl + Shift + Enter`    |        | ✓  | ✓
+| Generate Code                             | `Alt + Insert`            | ×      | ✓  |
+| Complete Statement                        | `Ctrl + Shift + Enter`    | ×      | ✓  | ✓
 | Show Parameter Info                       | `Ctrl + P`                | ×      | ✓  | ✓
 | Quick Documentation                       | `Ctrl + Shift + F1`       | ×      | ✓  | ✓
 | Refactor this                             | `Ctrl + Shift + R`        | ×      | ✓  | ✓
@@ -87,13 +87,13 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Go to Child Implementation (Inheritors)   | `Alt + End`               | ×      | ✓  | ✓
 | Go to Previous Annotation/Issue           | `Alt + PgUp`              | ✓      | ✓  | ✓
 | Go to Next Annotation/Issue               | `Alt + PgDn`              | ✓      | ✓  | ✓
-| Go to Previous Error/Warning in Solution  | `Alt + Shift + PgUp`      |        | ✓  |
-| Go to Next Error/Warning in Solution      | `Alt + Shift + PgDn`      |        | ✓  |
+| Go to Previous Error/Warning in Solution  | `Alt + Shift + PgUp`      | ✓      | ✓  |
+| Go to Next Error/Warning in Solution      | `Alt + Shift + PgDn`      | ✓      | ✓  |
 | Navigate Back                             | `Ctrl + -`                | ✓      | ✓  | ✓
 | Navigate Forward                          | `Ctrl + Shift + -`        | ✓      | ✓  | ✓
 | Go to Line                                | `Ctrl + G`                | ✓      | ✓  | ✓
-| Show Type Hierarchy                       | `Ctrl + E, H`             |        | ✓  |
-| Inspect This                              | `Ctrl + Alt + Shift + A`  |        | ✓  |
+| Show Type Hierarchy                       | `Ctrl + E, H`             | ×      | ✓  |
+| Inspect This                              | `Ctrl + Alt + Shift + A`  | ×      | ✓  |
 
 ### Running / Debugging
 

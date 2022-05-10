@@ -130,8 +130,8 @@ The following tables list the key binding names as they appear in Visual Studio.
 | Go to Member                              | `ReSharper.ReSharper_GotoFileMember`      | Text Editor
 | Go to Parent Implementation (Base)        | `ReSharper.ReSharper_GotoBase`            | Text Editor
 | Go to Child Implementation (Inheritors)   | `ReSharper.ReSharper_GotoInheritors`      | Text Editor
-| Go to Previous Annotation                 | `ReSharper.ReSharper_GotoPrevHighlight`   | Text Editor
-| Go to Next Annotation                     | `ReSharper.ReSharper_GotoNextHighlight`   | Text Editor
+| Go to Previous Annotation/Issue           | `ReSharper.ReSharper_GotoPrevHighlight`   | Text Editor
+| Go to Next Annotation/Issue               | `ReSharper.ReSharper_GotoNextHighlight`   | Text Editor
 | Navigate Back                             | `View.NavigateBackward`                   | Global
 | Navigate Forward                          | `View.NavigateForward`                    | Global
 | Go to Line                                | `Edit.GoTo`                               | Global

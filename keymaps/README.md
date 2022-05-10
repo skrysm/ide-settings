@@ -84,8 +84,8 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Go to Member                              | `Alt + ß`             | ×      | ✓  | ✓
 | Go to Parent Implementation (Base)        | `Alt + Home`          | ×      | ✓  | ✓
 | Go to Child Implementation (Inheritors)   | `Alt + End`           | ×      | ✓  | ✓
-| Go to Previous Annotation                 | `Alt + PgUp`          | ✓      | ✓  | ✓
-| Go to Next Annotation                     | `Alt + PgDown`        | ✓      | ✓  | ✓
+| Go to Previous Annotation/Issue           | `Alt + PgUp`          | ✓      | ✓  | ✓
+| Go to Next Annotation/Issue               | `Alt + PgDown`        | ✓      | ✓  | ✓
 | Navigate Back                             | `Ctrl + -`            | ✓      | ✓  | ✓
 | Navigate Forward                          | `Ctrl + Shift + -`    | ✓      | ✓  | ✓
 | Go to Line                                | `Ctrl + G`            | ✓      | ✓  | ✓

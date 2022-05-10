@@ -33,7 +33,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Close All Tabs                        | `Ctrl + Shift + W`        | ✓      | ✓  | ✓
 | Close Other Tabs                      | `Ctrl + Shift + Alt + W`  | ✓      | ✓  | ✓
 | Go to Previous Editor Tab             | `Ctrl + PageUp`           | ✓      | ✓  | ✓
-| Go to Next Editor Tab                 | `Ctrl + PageDown`         | ✓      | ✓  | ✓
+| Go to Next Editor Tab                 | `Ctrl + PageDn`           | ✓      | ✓  | ✓
 | Focus Project Sidebar                 | `Alt + 1`                 |        | ✓  | ✓
 | Show/Toggle Outline (File Structure)  | `Shift + Alt + O`         | ×      | ✓  |
 | Jump back to editor (from sidebar)    | `ESC`                     | ×      | ✓  | ✓
@@ -86,7 +86,7 @@ This directory contains a keymap for various IDEs that make them work like Visua
 | Go to Parent Implementation (Base)        | `Alt + Home`              | ×      | ✓  | ✓
 | Go to Child Implementation (Inheritors)   | `Alt + End`               | ×      | ✓  | ✓
 | Go to Previous Annotation/Issue           | `Alt + PgUp`              | ✓      | ✓  | ✓
-| Go to Next Annotation/Issue               | `Alt + PgDown`            | ✓      | ✓  | ✓
+| Go to Next Annotation/Issue               | `Alt + PgDn`              | ✓      | ✓  | ✓
 | Go to Previous Error/Warning in Solution  | `Alt + Shift + PgUp`      |        | ✓  |
 | Go to Next Error/Warning in Solution      | `Alt + Shift + PgDn`      |        | ✓  |
 | Navigate Back                             | `Ctrl + -`                | ✓      | ✓  | ✓

@@ -7,8 +7,9 @@
 	<s:Boolean x:Key="/Default/CodeEditing/TypingAssist/Razor/FormatOnClosingTag/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeEditing/TypingAssist/Razor/FormatOnEnter/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeEditing/TypingAssist/SkipClosingBracesOnTab/@EntryValue">False</s:Boolean>
+	<!-- Enabling this has some serious performance impact on the Alt+Enter menu. So we keep it disabled. -->
+	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/DoNotShowVsBulb/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/IdentifierHighlightingEnabled/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/CodeInspection/Highlighting/ShowVsBulbItemsInSubmenu/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/EditorConfig/ShowEditorConfigStatusBarIndicator/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/Naming/CSharpAutoNaming/IsNotificationDisabled/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Debugger/LocalVariablesEditorAdornmentsEnabled/@EntryValue">False</s:Boolean>

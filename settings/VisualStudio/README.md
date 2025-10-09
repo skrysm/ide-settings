@@ -30,7 +30,7 @@ Via `Tools` -> `Options...`:
   * Import and Export Settings
     * Select appropriate folder for auto-save (file name: `CurrentSettings`)
   * Tabs and Windows
-    * Check "Colorize document tabs by project" (VS2022+)
+    * Check "Colorize document tabs by project"
     * Check "Show pinned tabs on a separate row"
   * Trailing Whitespace (from extension)
     * Remove `.md` and `.markdown` from "Ignore pattern"
@@ -66,7 +66,7 @@ Via `Tools` -> `Options...`:
 * XAML Designer
   * Uncheck "Enable XAML Designer"
 
-Via `Tools` -> `Customize...` (VS2019 or newer):
+Via `Tools` -> `Customize...`:
 
 * Extensions Menu
   * Uncheck "ReSharper" (this way, the ReSharper menu again appears in the VS menu bar directly)

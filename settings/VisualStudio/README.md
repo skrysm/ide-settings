@@ -30,7 +30,7 @@ Via `Tools` -> `Options...`:
   * Import and Export Settings
     * Select appropriate folder for auto-save (file name: `CurrentSettings`)
   * Tabs and Windows
-    * Check "Colorize document tabs by project"
+    * Check "Colorize document tabs by: Project"
     * Check "Show pinned tabs on a separate row"
   * Trailing Whitespace (from extension)
     * Remove `.md` and `.markdown` from "Ignore pattern"
@@ -60,6 +60,12 @@ Via `Tools` -> `Options...`:
 * Debugging
   * General
     * Uncheck "Step over properties and operators"
+* GitHub
+  * Copilot
+    * Uncheck "Enable Copilot Completions"
+* IntelliCode
+  * General
+    * Uncheck "Automatically generate code completions in the Editor"
 * NuGet Package Manager
   * General
     * "Default package management format": "PackageReference"

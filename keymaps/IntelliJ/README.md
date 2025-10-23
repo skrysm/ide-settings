@@ -1,5 +1,10 @@
 ﻿# IntelliJ Keymap
 
+## Import
+
+1. Go to `%APPDATA%\JetBrains\IntelliJIdea<version>\keymaps` (create if not exists)
+1. Copy desired .xml file.
+
 ## Export
 
 1. Locate your IntelliJ config folder on disk.
@@ -10,7 +15,3 @@
      * For 2020.0 or newer: `%USERPROFILE%\AppData\Roaming\JetBrains\IntelliJIdea<version>`
 1. Go to `...\config\settingsRepository\repository\keymaps`
 1. Copy desired .xml file.
-
-## Import
-
-1. See: <https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html>

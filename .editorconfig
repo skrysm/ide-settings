@@ -64,3 +64,5 @@ end_of_line = crlf
 #
 # Repository custom settings
 #
+[*.DotSettings]
+indent_style = tab

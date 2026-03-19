@@ -65,4 +65,5 @@ end_of_line = crlf
 # Repository custom settings
 #
 [*.DotSettings]
+charset = utf-8-bom
 indent_style = tab

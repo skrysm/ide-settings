@@ -1,23 +1,17 @@
 ﻿# Visual Studio Keymap
 
-## Export
-
-1. Export key bindings
-1. Re-import key bindings
-1. Export key bindings again (VS reorders the XML when importing so we to do steps 2 and 3 to get a consistent file)
-1. Use Visual Studio Code to format the file (via `Ctrl + Shift + P` and then `Format Document`).
-
 ## Exporting Key Bindings
 
-Go to:
+1. Go to:
 
-    Tools -> Import and Export Settings... -> Export selected environment settings
+       Tools -> Import and Export Settings... -> Export selected environment settings
 
-Then deselect `All Settings` and select:
+   Then deselect **All Settings** and select:
 
-    Options -> Environment -> Keyboard
+       Options (*not* General Settings) -> Environment -> Keyboard
 
-Then export.
+   Then export.
+1. Use Visual Studio Code to format the file (via `Ctrl + Shift + P` and then `Format Document`).
 
 ## Importing Key Bindings
 
@@ -27,7 +21,7 @@ Go to:
 
     Tools -> Import and Export Settings... -> Import selected environment settings
 
-Say `No, just import new settings` and follow import wizard.
+Say **No, just import new settings** and follow import wizard.
 
 ## Recreating the Key Bindings from Scratch
 
@@ -47,10 +41,12 @@ To start, follow the following steps:
 
 The following tables list the key binding names as they appear in Visual Studio.
 
+> [!TIP]
+> It's actually a lot easier to import the keybindings from the previous Visual Studio version than creating from scratch. This is a lot less work than creating the keybindings from scratch.
+
 **Notes:**
 
 * **For every key binding:** Always check the "Shortcut currently used by" drop down for *every* key binding and remove all other conflicting key bindings (only those with a different scope need to be removed explicitly).
-* As "Scope" we use "Global" everywhere - unless the keybinding must be restricted to a certain scope. This way we make sure that the keybindings don't have other meaning in other parts of Visual Studio.
 * Keybindings with scope "Text Editor" are applied to every text editor (including XAML, XML, HTML...). So there's no need to define the same keybindings for different text editor types.
 
 ### General
@@ -64,11 +60,9 @@ The following tables list the key binding names as they appear in Visual Studio.
 | Open File                         | `File.OpenFile`                                                   | Global
 | Save All                          | `File.SaveAll`                                                    | Global
 | Go to Action/Command              | `Window.QuickLaunch`                                              | Global
-| Open File in Explorer             | `File.OpenContainingFolder`                                       | Global
-| Open File in Explorer             | `ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer` | Solution Explorer
-| Locate Current File in Sidebar    | `ReSharper_LocateItemInSolutionOrAssemblyExplorer`                | Global
+| Open File in Explorer             | `File.OpeninFileExplorer`                                         | Global
+| Locate Current File in Sidebar    | `ReSharper.ReSharper_LocateInSolutionOrAssemblyExplorer`          | Text Editor
 | Zoom In/Out                       | `View.ZoomIn`, `View.ZoomOut`                                     | (Remove)
-| Refresh TFS information           | `File.TfsRefreshStatus`                                           | Team Explorer
 
 ### Windows / Tabs
 
@@ -76,12 +70,13 @@ The following tables list the key binding names as they appear in Visual Studio.
 | ------------------------------------- | ----------------------------------------------------------------- | -----
 | Close Current Tab                     | `Window.CloseDocumentWindow`                                      | Global
 | Close All Tabs                        | `Window.CloseAllDocuments`                                        | Global
-| Close Other Tabs                      | `File.CloseAllButThis`                                            | Global
+| Close Other Tabs                      | `File.CloseOtherTabs`                                             | Text Editor
 | Go to Previous Editor Tab             | `Window.PreviousTab` (remove binding  for all other commands!)    | Global
 | Go to Next Editor Tab                 | `Window.NextTab` (remove binding  for all other commands!)        | Global
 | Show/Toggle Outline (File Structure)  | `ReSharper.ReSharper_ShowCodeStructure`                           | Global
 | Focus Project Sidebar                 | `View.SolutionExplorer`                                           | Global
-| Jump back to editor (from sidebar)    | (default)
+| Jump back to editor (from sidebar)    | (default)                                                         | Global
+| Pin/Unpin Tab                         | `Window.PinTab`                                                   | Text Editor
 
 ### Search / Replace
 

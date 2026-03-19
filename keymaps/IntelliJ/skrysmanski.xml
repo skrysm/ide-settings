@@ -3,6 +3,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
@@ -36,6 +37,10 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="shift ctrl 7" />
+  </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="CopyElement" />
   <action id="Debug">
@@ -113,8 +118,10 @@
   <action id="Graph.ZoomIn" />
   <action id="Graph.ZoomOut" />
   <action id="Images.ShowThumbnails" />
+  <action id="IntroduceParameter" />
   <action id="JumpToLastWindow" />
   <action id="MethodHierarchy.OverrideMethodAction" />
+  <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="NewDir">
@@ -132,6 +139,9 @@
   </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="PinActiveEditorTab">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousTab">
@@ -194,11 +204,14 @@
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="u" />
   </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="TodoViewGroupByShowPackages" />
   <action id="ToggleBookmark" />
   <action id="ToggleBookmark7" />
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
+  <action id="UsageGrouping.Directory" />
+  <action id="UsageGrouping.Package" />
   <action id="UsageView.Rerun" />
   <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.UpdateProject" />

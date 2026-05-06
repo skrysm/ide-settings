@@ -12,6 +12,7 @@
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ChangesView.ShelveSilently" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
@@ -150,6 +151,8 @@
   <action id="Images.ShowThumbnails" />
   <action id="IntroduceParameter" />
   <action id="JumpToLastWindow" />
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="MethodHierarchy.OverrideMethodAction" />
   <action id="Move" />
   <action id="MoveLineDown" />
@@ -190,8 +193,12 @@
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
-  <action id="Replace" />
-  <action id="ReplaceInPath" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="Rerun" />
   <action id="RerunTests" />
   <action id="RestoreDefaultLayout" />
@@ -246,6 +253,8 @@
     <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="Tree-startEditing" />
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.Directory" />
   <action id="UsageGrouping.Package" />
   <action id="UsageView.Rerun" />

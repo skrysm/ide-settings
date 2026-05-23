@@ -12,6 +12,10 @@ Set/Change the following settings:
 * Explorer: Auto Reveal: disabled
 * Explorer: Confirm Drag and Drop: disabled
 * Open Editors: Visible: 0
+* Window
+  * Restore Windows: none
+* Features / Terminal
+  * Integrated - Persistent Session Revive Process: never
 
 ## Settings Sync
 

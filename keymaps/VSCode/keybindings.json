@@ -108,10 +108,6 @@
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+w",
-        "command": "workbench.action.closeAllEditors"
-    },
-    {
         "key": "ctrl+k ctrl+w",
         "command": "-workbench.action.closeAllEditors"
     },
@@ -325,5 +321,33 @@
     {
         "key": "ctrl+1",
         "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.pinEditor",
+        "when": "!activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+k shift+enter",
+        "command": "-workbench.action.pinEditor",
+        "when": "!activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.unpinEditor",
+        "when": "activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+k shift+enter",
+        "command": "-workbench.action.unpinEditor",
+        "when": "activeEditorIsPinned"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "-workbench.action.closeAllGroups"
     }
 ]
